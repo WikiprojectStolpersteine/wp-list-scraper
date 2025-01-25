@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import json
 import sys
+from urllib.parse import unquote
 
 
 def fetch_stolpersteine_data(list_name):
@@ -84,18 +85,46 @@ def fetch_stolpersteine_data(list_name):
             "place_of_death": place_of_death.group(1) if place_of_death else None,
         }
 
+    # Helper function to process person info
+    def process_person_info(person_info):
+        pattern = re.compile(r"^(.*)\((\d{4})–(\d{4})\)$")
+        match = pattern.match(person_info.strip())
+        if match:
+            name = match.group(1).strip()
+            birth_year = match.group(2)
+            death_year = match.group(3)
+            return {
+                "name": name,
+                "date_of_birth": birth_year,
+                "date_of_death": death_year,
+            }
+        return {
+            "name": person_info.strip(),
+            "date_of_birth": None,
+            "date_of_death": None,
+        }
+
+    # Helper function to extract image filename
+    def extract_image(cell):
+        match = re.search(r"Datei:(.*?)(\")", cell)
+        if match:
+            return unquote(match.group(1))
+        return None
+
     # Process rows into structured data
     data = []
     for row in rows:
         if len(row) >= 4:  # Ensure sufficient columns exist
+            raw_image = row[0]
             raw_location = row[2]
             raw_inscription = BeautifulSoup(row[1], "html.parser").text.strip()
+            raw_person_info = BeautifulSoup(row[3], "html.parser").text.strip()
 
             stolperstein_data = {
-                "image": None,  # Image extraction can be added if needed
+                "image": extract_image(raw_image),
                 "inscription": process_inscription(raw_inscription),
                 "location": BeautifulSoup(raw_location, "html.parser").text.strip(),
-                "person_info": BeautifulSoup(row[3], "html.parser").text.strip(),
+                "person_info": process_person_info(raw_person_info),
                 "coordinates": extract_coordinates(raw_location),
             }
             data.append(stolperstein_data)
