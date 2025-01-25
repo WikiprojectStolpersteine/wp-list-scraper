@@ -43,10 +43,11 @@ def fetch_stolpersteine_data(list_name):
             rows.append(row_data)
     # {{Coordinate|simple=y|text=ICON2|NS=53.503889|EW=13.991667|type=landmark|region=DE-MV|name=Stolpersteine für Benno Schlochauer, Lina Schlochauer, Siegbert Schlochauer, Jacob Steinberg, Max Steinberg, Gertrud Zobel und Max Zobel}}
     # Helper function to extract coordinates from template
-    coord_pattern = re.compile(r"Coordinate\|simple=y\|NS=([\d\.]+)\|EW=([\d\.]+)")
-
+    coord_pattern = re.compile(r"\{\{Coordinate\|.*?\|NS=([\d\.]+)\|EW=([\d\.]+)")
+    
     def extract_coordinates(cell):
         match = coord_pattern.search(cell)
+        print(match)
         if match:
             return {
                 "latitude": float(match.group(1)),
@@ -58,6 +59,7 @@ def fetch_stolpersteine_data(list_name):
     data = []
     for row in rows:
         if len(row) >= 4:  # Ensure sufficient columns exist
+            print(row[2])
             stolperstein_data = {
                 "image": None,  # Image extraction can be added if needed
                 "inscription": row[1],
