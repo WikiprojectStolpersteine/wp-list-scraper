@@ -1,546 +1,1194 @@
 [
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße ohne Haus, neben Nr. 14",
         "person_info": "Adele Alifeld",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEADOLF ARNDTJG. 1870DEPORTIERT 1942THERESIENSTADTERMORDET 12.7.1942",
+        "inscription": {
+            "text": "HIER WOHNTEADOLF ARNDTJG. 1870DEPORTIERT 1942THERESIENSTADTERMORDET 12.7.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1870",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße gegenüber 16/18",
         "person_info": "Adolf Arndt (1870–1944)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMAX BACKJG. 1874DEPORTIERT 1941LODZ / LITZMANNNSTADTERMORDET 1944AUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEMAX BACKJG. 1874DEPORTIERT 1941LODZ / LITZMANNNSTADTERMORDET 1944AUSCHWITZ",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1874",
+            "date_of_death": "1944",
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Max Back(1874–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße 14",
         "person_info": "Egon Behrendt",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEGERTRUD BEHRENDTJG. 1899DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+        "inscription": {
+            "text": "HIER WOHNTEGERTRUD BEHRENDTJG. 1899DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1899",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Haußmannstraße 54",
         "person_info": "Gertrud Behrendt (1899–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 30",
         "person_info": "Kurt Behrendt",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMARTHA BEHRENDTGEB. GETZELJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 1943",
+        "inscription": {
+            "text": "HIER WOHNTEMARTHA BEHRENDTGEB. GETZELJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1873",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Haußmannstraße 54",
         "person_info": "Martha Behrendt, geborene Getzel (1873–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEPAUL BEHRENDTJG. 1860VERTRIEBEN 1936TOT 12.12.1939INBERLIN",
+        "inscription": {
+            "text": "HIER WOHNTEPAUL BEHRENDTJG. 1860VERTRIEBEN 1936TOT 12.12.1939INBERLIN",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1860",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Haußmannstraße 54",
         "person_info": "Paul Behrendt (1860–1939)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEELSE BLAUGEB. STEINBERGJG. 1904DEPORTIERT 1943ERMORDET 1944 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEELSE BLAUGEB. STEINBERGJG. 1904DEPORTIERT 1943ERMORDET 1944 INAUSCHWITZ",
+            "years": [
+                "1944"
+            ],
+            "places": [],
+            "date_of_birth": "1904",
+            "date_of_death": "1944",
+            "place_of_death": null
+        },
         "location": "Am Markt 11",
         "person_info": "Else Blau, geborene Steinberg (1904–1944)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEBERNHARD BREZINSKIJG. 1924TOT 1943 INBERLIN",
+        "inscription": {
+            "text": "HIER WOHNTEBERNHARD BREZINSKIJG. 1924TOT 1943 INBERLIN",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1924",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 14/16",
         "person_info": "Bernhard Brezinski (1924–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEJOSEF BRZEZINSKIJG. 1893DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+        "inscription": {
+            "text": "HIER WOHNTEJOSEF BRZEZINSKIJG. 1893DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1893",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 14/16",
         "person_info": "Josef Brezinski(1893–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEGERTRUD BRZEZINSKIGEB. RÄSNERJG. 1892DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+        "inscription": {
+            "text": "HIER WOHNTEGERTRUD BRZEZINSKIGEB. RÄSNERJG. 1892DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1892",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 14/16",
         "person_info": "Gertrud Brezinski geb. Räsner(1892–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEBETTY COHNGEB. LOEWEJG. 1867DEPORTIERT 1942THERESIENSTADTTOT 13.4.1943",
+        "inscription": {
+            "text": "HIER WOHNTEBETTY COHNGEB. LOEWEJG. 1867DEPORTIERT 1942THERESIENSTADTTOT 13.4.1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1867",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 19",
         "person_info": "Betty Cohn geb. Loewe(1867–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEJENNY DAVIDSOHNGEB. COHNJG. 1868DEPORTIERT 1942THERESIENSTADTERMORDET 5.7.1942",
+        "inscription": {
+            "text": "HIER WOHNTEJENNY DAVIDSOHNGEB. COHNJG. 1868DEPORTIERT 1942THERESIENSTADTERMORDET 5.7.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1868",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 14/16",
         "person_info": "Jenny Davidsohn geb. Cohn(1868–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEGRETE DOBRINGEB. ZOBELJG. 1894DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+        "inscription": {
+            "text": "HIER WOHNTEGRETE DOBRINGEB. ZOBELJG. 1894DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1894",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Klosterstraße ohne Haus, neben Nr. 32",
         "person_info": "Grete Dobrin geb. Zobel(1894–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEHERBERT DOBRINJG. 1920DEPORTIERT 1943AUSCHWITZERMORDET 6.6.1943",
+        "inscription": {
+            "text": "HIER WOHNTEHERBERT DOBRINJG. 1920DEPORTIERT 1943AUSCHWITZERMORDET 6.6.1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1920",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Klosterstraße ohne Haus, neben Nr. 32",
         "person_info": "Herbert Dobrin(1920–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEJULIUS DOBRINJG. 1884DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+        "inscription": {
+            "text": "HIER WOHNTEJULIUS DOBRINJG. 1884DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1884",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Klosterstraße ohne Haus, neben Nr. 32",
         "person_info": "Julius Dobrin(1884–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße 3",
         "person_info": "Hedwig Ehrlich",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Selma Ehrlich",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße ohne Haus, neben Nr. 14",
         "person_info": "Ephraim Finkel",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße 4",
         "person_info": "Wally Fischel geb. Ledermann",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEELSE FLATAUGEB. RÄSNERJG. 1888DEPORTIERT 1942THERESIENSTADTERMORDET 1943AUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEELSE FLATAUGEB. RÄSNERJG. 1888DEPORTIERT 1942THERESIENSTADTERMORDET 1943AUSCHWITZ",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1888",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 14/16",
         "person_info": "Else Flatau geb. Räsner(1888–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEEMMYFRIEDLÄNDERJG. 1880DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET",
+        "inscription": {
+            "text": "HIER WOHNTEEMMYFRIEDLÄNDERJG. 1880DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1880",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 44–70",
         "person_info": "Emmy Friedländer(1880–1944/45)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTELINAFRIEDLÄNDERVERH. BRADTJG. 1887DEPORTIERT 1941KOWNOERMORDET 1941",
+        "inscription": {
+            "text": "HIER WOHNTELINAFRIEDLÄNDERVERH. BRADTJG. 1887DEPORTIERT 1941KOWNOERMORDET 1941",
+            "years": [
+                "1941"
+            ],
+            "places": [],
+            "date_of_birth": "1887",
+            "date_of_death": "1941",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 44–70",
         "person_info": "Lina Friedländer verh. Bradt(1887–1941)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMARTHAFRIEDLÄNDERVERH. COHNJG. 1879DEPORTIERT 1941LODZ / LITZMANNSTADTERMORDET 8.5.1942CHELMNO / KULMHOF",
+        "inscription": {
+            "text": "HIER WOHNTEMARTHAFRIEDLÄNDERVERH. COHNJG. 1879DEPORTIERT 1941LODZ / LITZMANNSTADTERMORDET 8.5.1942CHELMNO / KULMHOF",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1879",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 44–70",
         "person_info": "Martha Friedländer verh. Cohn(1879–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEIDA HAVELBURGJG. 1878DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET 1944",
+        "inscription": {
+            "text": "HIER WOHNTEIDA HAVELBURGJG. 1878DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET 1944",
+            "years": [
+                "1944"
+            ],
+            "places": [],
+            "date_of_birth": "1878",
+            "date_of_death": "1944",
+            "place_of_death": null
+        },
         "location": "Baustraße 28",
         "person_info": "Ida Havelburg (1878–1944)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 8 (Post)",
         "person_info": "Amalie Hermann, geborene Lehmann",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEERNA HEUMANNGEB. LEWINJG. 1886DEPORTIERT 1942ERMORDET 1942 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEERNA HEUMANNGEB. LEWINJG. 1886DEPORTIERT 1942ERMORDET 1942 INAUSCHWITZ",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1886",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Erna Heumann, geborene Lewin (1886–1942) In Dessau-Roßlau wurde ein weiterer Stolperstein für Erna Heumann verlegt",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 8 (Post)",
         "person_info": "Martha Hirschberg, geborene Lehmann",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEELISABETHKÖNIGSFELDGEB. HAVELBURGJG. 1872DEPORTIERT 1942AUSCHWITZERMORDET 1943",
+        "inscription": {
+            "text": "HIER WOHNTEELISABETHKÖNIGSFELDGEB. HAVELBURGJG. 1872DEPORTIERT 1942AUSCHWITZERMORDET 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1872",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Baustraße 28",
         "person_info": "Elisabeth Königsfeld, geborene Havelburg (1872–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 8 (Post)",
         "person_info": "Harry Jacobsohn",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Ludwig Jacoby",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEREGINA KLEINJG. 1892DEPORTIERT 1942SOBIBORERMORDET 3.6.1942",
+        "inscription": {
+            "text": "HIER WOHNTEREGINA KLEINJG. 1892DEPORTIERT 1942SOBIBORERMORDET 3.6.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1892",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 13",
         "person_info": "Regina Klein(1892–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 29",
         "person_info": "Erna Lazarus geb. Brilles",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße 4",
         "person_info": "Georg Ledermann",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 8 (Post)",
         "person_info": "Lilli Lehmann",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße 6",
         "person_info": "Ludwig Lehmann",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEKLARA LEFEBREGEB. SCHLOCHAUERJG. 1901DEPORTIERT 1940PIASKIERMORDET 1942 IMKZ LUBLIN",
+        "inscription": {
+            "text": "HIER WOHNTEKLARA LEFEBREGEB. SCHLOCHAUERJG. 1901DEPORTIERT 1940PIASKIERMORDET 1942 IMKZ LUBLIN",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1901",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Baustraße gegenüber 80",
         "person_info": "Klara Levebre geb. Schlochauer(1901–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEALBERT LEFEVREJG. 1860DEPORTIERT 1940LUBLINERMORDET 1942",
+        "inscription": {
+            "text": "HIER WOHNTEALBERT LEFEVREJG. 1860DEPORTIERT 1940LUBLINERMORDET 1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1860",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Baustraße gegenüber 80",
         "person_info": "Albert Levefre(1860–1942)[3]",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEADOLF LEWINJG. 1928DEPORTIERT 1942ERMORDET INPIASKI",
+        "inscription": {
+            "text": "HIER WOHNTEADOLF LEWINJG. 1928DEPORTIERT 1942ERMORDET INPIASKI",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1928",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Adolf Lewin(1928–1942/45)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMARTHA LEWINJG. 1882DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEMARTHA LEWINJG. 1882DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1882",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Marta Lewin(1882–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTESIEGFRIED LOEWEJG. 1862DEPORTIERT 1940KZ LUBLINERMORDET 1942",
+        "inscription": {
+            "text": "HIER WOHNTESIEGFRIED LOEWEJG. 1862DEPORTIERT 1940KZ LUBLINERMORDET 1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1862",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 19",
         "person_info": "Siegfried Loewe(1862–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMETA LOUISGEB. JOELJG. 1868DEPORTIERT 1942THERESIENSTADTTOT 3.9.1942",
+        "inscription": {
+            "text": "HIER WOHNTEMETA LOUISGEB. JOELJG. 1868DEPORTIERT 1942THERESIENSTADTTOT 3.9.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1868",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 14/16",
         "person_info": "Meta Louis geb. Joel(1868–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEREGINA MANASSEGEB. HAVELBURGJG. 1872DEPORTIERT 1942RIGATOT 1943",
+        "inscription": {
+            "text": "HIER WOHNTEREGINA MANASSEGEB. HAVELBURGJG. 1872DEPORTIERT 1942RIGATOT 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1872",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße 28",
         "person_info": "Regina Manasse, geborene Havelburg (1872–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMARTHA MATHIASJG. 1887DEPORTIERT 1943RIGAERMORDET",
+        "inscription": {
+            "text": "HIER WOHNTEMARTHA MATHIASJG. 1887DEPORTIERT 1943RIGAERMORDET",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1887",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 44",
         "person_info": "Martha Mathias(1887–1943/1945)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 30",
         "person_info": "Siegfried Mathias",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEANNELIESEMICHAELISJG. 1908DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEANNELIESEMICHAELISJG. 1908DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1908",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Anneliese Michaelis(1908–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEELSE MICHAELISGEB. LEWINJG. 1881DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEELSE MICHAELISGEB. LEWINJG. 1881DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1881",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Else Michaelis geb. Lewin(1881–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTERAFAEL MICHAELISJG. 1872DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTERAFAEL MICHAELISJG. 1872DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1872",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Am St. Spiritus 3",
         "person_info": "Rafael Michaelis(1872–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMARGARETE MICHELGEB. STERNBERGJG. 1877DEPORTIERT 1942THERESIENSTADTTOT 19.4.1944",
+        "inscription": {
+            "text": "HIER WOHNTEMARGARETE MICHELGEB. STERNBERGJG. 1877DEPORTIERT 1942THERESIENSTADTTOT 19.4.1944",
+            "years": [
+                "1944"
+            ],
+            "places": [],
+            "date_of_birth": "1877",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 27",
         "person_info": "Margarete Michel geb. Sternberg(1877–1944)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMARTHA NATHANSOHNGEB. LOEWEJG. 1864DEPORTIERT 1942THERESIENSTADTERMORDET 5.12.1942",
+        "inscription": {
+            "text": "HIER WOHNTEMARTHA NATHANSOHNGEB. LOEWEJG. 1864DEPORTIERT 1942THERESIENSTADTERMORDET 5.12.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1864",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 19",
         "person_info": "Martha Nathanson geb. Loewe(1864–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTETHERESE OSTHEIMGEB. ABRAHAMSOHNJG. 1868DEPORTIERT 1942ERMORDET 1943 INRIGA",
+        "inscription": {
+            "text": "HIER WOHNTETHERESE OSTHEIMGEB. ABRAHAMSOHNJG. 1868DEPORTIERT 1942ERMORDET 1943 INRIGA",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1868",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Klosterstraße, Parkplatz",
         "person_info": "Therese Ostheim, geborene Abrahamson (1868–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEGERALDINE PLESSGEB. AHRONFELDJG. 1863DEPORTIERT 1942THERESIENSTADTTOT 6.12.1942",
+        "inscription": {
+            "text": "HIER WOHNTEGERALDINE PLESSGEB. AHRONFELDJG. 1863DEPORTIERT 1942THERESIENSTADTTOT 6.12.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1863",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße ohne Haus, gegenüber Nr. 44",
         "person_info": "Geraldine Pless, geborene Ahronfeld (1863–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEBIANKA PUTZIGER GEB. HIRSCHLAFFJG. 1811DEPORTIERT 1942GLUSKERMORDET 1942 INMAJDANEK",
+        "inscription": {
+            "text": "HIER WOHNTEBIANKA PUTZIGER GEB. HIRSCHLAFFJG. 1811DEPORTIERT 1942GLUSKERMORDET 1942 INMAJDANEK",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1811",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Grünstraße 35",
         "person_info": "Bianka Putziger, geborene Hirschlaff (1811–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEBLANKA ROSENTHALGEB. MATHIASJG. 1894DEPORTIERT 1942RIGAERMORDET 29.10.1942",
+        "inscription": {
+            "text": "HIER WOHNTEBLANKA ROSENTHALGEB. MATHIASJG. 1894DEPORTIERT 1942RIGAERMORDET 29.10.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1894",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 44",
         "person_info": "Blanka Rosenthal, geborene Mathias (1894–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEARTHURROSENZWEIGJG. 1901DEPORTIERT 1940LUBLINERMORDET 1942",
+        "inscription": {
+            "text": "HIER WOHNTEARTHURROSENZWEIGJG. 1901DEPORTIERT 1940LUBLINERMORDET 1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1901",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Grünstraße 59",
         "person_info": "Arthur Rosenzweig(1901–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEGUSTAVROSENZWEIGJG. 1862DEPORTIERT 1940LUBLINERMORDET 1942",
+        "inscription": {
+            "text": "HIER WOHNTEGUSTAVROSENZWEIGJG. 1862DEPORTIERT 1940LUBLINERMORDET 1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1862",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Grünstraße 59",
         "person_info": "Gustav Rosenzweig(1862–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEHEDWIG SALEMONGEB. LOEWEJG. 1865DEPORTIERT 1942THERESIENSTADT1942 TREBLINKAERMORDET 1943",
+        "inscription": {
+            "text": "HIER WOHNTEHEDWIG SALEMONGEB. LOEWEJG. 1865DEPORTIERT 1942THERESIENSTADT1942 TREBLINKAERMORDET 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1865",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 19",
         "person_info": "Hedwig Salemon geb. Loewe(1865–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEJENNY SÄNGERJG. 1856DEPORTIERT 1942THERESIENSTADTTOT 2.3.1943",
+        "inscription": {
+            "text": "HIER WOHNTEJENNY SÄNGERJG. 1856DEPORTIERT 1942THERESIENSTADTTOT 2.3.1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1856",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 21",
         "person_info": "Jenny Sänger(1856–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTESIEGBERT SÄNGERJG. 1878DEPORTIERT 1942GHETTO WARSCHAUERMORDET",
+        "inscription": {
+            "text": "HIER WOHNTESIEGBERT SÄNGERJG. 1878DEPORTIERT 1942GHETTO WARSCHAUERMORDET",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1878",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 14/16",
         "person_info": "Siegbert Sänger(1878–1942/1944)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEBENNOSCHLOCHAUERJG. 1864DEPORTIERT 1940KZ LUBLINERMORDET 1942",
+        "inscription": {
+            "text": "HIER WOHNTEBENNOSCHLOCHAUERJG. 1864DEPORTIERT 1940KZ LUBLINERMORDET 1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1864",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Baustraße 48/49",
         "person_info": "Benno Schlochauer (1864–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTELINA SCHLOCHAUERGEB. STEINBERGJG. 1867DEPORTIERT 1940PIASKIERMORDET 22.5.1940 IMKZ LUBLIN",
+        "inscription": {
+            "text": "HIER WOHNTELINA SCHLOCHAUERGEB. STEINBERGJG. 1867DEPORTIERT 1940PIASKIERMORDET 22.5.1940 IMKZ LUBLIN",
+            "years": [
+                "1940"
+            ],
+            "places": [],
+            "date_of_birth": "1867",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße 48/49",
         "person_info": "Lina Schlochauer geb. Steinberg(1867–1940)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTESIEGBERTSCHLOCHAUERJG. 1903DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
+        "inscription": {
+            "text": "HIER WOHNTESIEGBERTSCHLOCHAUERJG. 1903DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1903",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Baustraße 48/49",
         "person_info": "Siegbert Schlochauer(1903–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEGERTRUD SEGALLGEB. STERNBERGJG. 1881VOR  DEPORTATIONFLUCHT IN DEN TOD22.1.1942",
+        "inscription": {
+            "text": "HIER WOHNTEGERTRUD SEGALLGEB. STERNBERGJG. 1881VOR  DEPORTATIONFLUCHT IN DEN TOD22.1.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1881",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 27",
         "person_info": "Gertrud Segall geb. Sternberg(1881–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTESARAHSTANKOWSKIGEB. GORTATOWSKIJG. 1869TOT 17.6.1943VOR DER DEPORTATION",
+        "inscription": {
+            "text": "HIER WOHNTESARAHSTANKOWSKIGEB. GORTATOWSKIJG. 1869TOT 17.6.1943VOR DER DEPORTATION",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1869",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Marktstraße ohne Haus, gegenüber Nr. 44",
         "person_info": "Sarah Stankowski geb. Gortatowski(1869–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEBETTY STEINBERGGEB. BERLOWITZJG. 1876DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEBETTY STEINBERGGEB. BERLOWITZJG. 1876DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1876",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Am Markt 11",
         "person_info": "Betty Steinberg geb. Berlowitz(1876–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEJACOB STEINBERGJG. 1877DEPORTIERT 1941TOT 1943 INLODZ / LITZMANNSTADT",
+        "inscription": {
+            "text": "HIER WOHNTEJACOB STEINBERGJG. 1877DEPORTIERT 1941TOT 1943 INLODZ / LITZMANNSTADT",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1877",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße 48/49",
         "person_info": "Jacob Steinberg(1877–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEJULIUS STEINBERGJG. 1873DEPORTIERT 1943THERESIENSTADTTOT 9.1.1944",
+        "inscription": {
+            "text": "HIER WOHNTEJULIUS STEINBERGJG. 1873DEPORTIERT 1943THERESIENSTADTTOT 9.1.1944",
+            "years": [
+                "1944"
+            ],
+            "places": [],
+            "date_of_birth": "1873",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 11",
         "person_info": "Julius Steinberg(1873–1944)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMAX STEINBERGJG. 187XDEPORTIERT 1942AUSCHWITZERMORDET 13.2.1943",
+        "inscription": {
+            "text": "HIER WOHNTEMAX STEINBERGJG. 187XDEPORTIERT 1942AUSCHWITZERMORDET 13.2.1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße 48/49",
         "person_info": "Max Steinberg(187X-1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMAX STERNBERGJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 10.11.1942",
+        "inscription": {
+            "text": "HIER WOHNTEMAX STERNBERGJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 10.11.1942",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1873",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 27",
         "person_info": "Max Sternberg(1873–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "",
+        "inscription": {
+            "text": "",
+            "years": [],
+            "places": [],
+            "date_of_birth": null,
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Am Markt 8 (Post)",
         "person_info": "Max Teller",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTETHEA TOSKGEB. BAYERJG. 1904DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
+        "inscription": {
+            "text": "HIER WOHNTETHEA TOSKGEB. BAYERJG. 1904DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
+            "years": [
+                "1942"
+            ],
+            "places": [],
+            "date_of_birth": "1904",
+            "date_of_death": "1942",
+            "place_of_death": null
+        },
         "location": "Grünstraße 59",
         "person_info": "Thea Tosk geb. Bayer(1904–1942)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEFRIEDATRANSLATEURGEB. PUTZIGERJG. 1905DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEFRIEDATRANSLATEURGEB. PUTZIGERJG. 1905DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1905",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 27",
         "person_info": "Frieda Translateur geb. Putziger(1905–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEHUGOTRANSLATEURJG. 1883DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+        "inscription": {
+            "text": "HIER WOHNTEHUGOTRANSLATEURJG. 1883DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1883",
+            "date_of_death": "1943",
+            "place_of_death": null
+        },
         "location": "Ueckerstraße 27",
         "person_info": "Hugo Translateur(1883–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTESELMA WESTENBERGGEB. HAVELBURGJG. 1874DEPORTIERT 1942RIGATOT 1943",
+        "inscription": {
+            "text": "HIER WOHNTESELMA WESTENBERGGEB. HAVELBURGJG. 1874DEPORTIERT 1942RIGATOT 1943",
+            "years": [
+                "1943"
+            ],
+            "places": [],
+            "date_of_birth": "1874",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße 28",
         "person_info": "Selma Westenberg geb. Havelburg(1874–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEGERTRUD ZOBELGEB. SIMONJG. 1888DEPORTIERT 1940BELZYCEERMORDET INLUBLIN",
+        "inscription": {
+            "text": "HIER WOHNTEGERTRUD ZOBELGEB. SIMONJG. 1888DEPORTIERT 1940BELZYCEERMORDET INLUBLIN",
+            "years": [],
+            "places": [],
+            "date_of_birth": "1888",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße 48/49",
         "person_info": "Gertrud Zobel geb. Simon(1888–1943)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEJOHANNA ZOBELGEB. LEWYJG. 1863DEPORTIERT 1940BELZYCEERMORDET 1940 INLUBLIN",
+        "inscription": {
+            "text": "HIER WOHNTEJOHANNA ZOBELGEB. LEWYJG. 1863DEPORTIERT 1940BELZYCEERMORDET 1940 INLUBLIN",
+            "years": [
+                "1940"
+            ],
+            "places": [],
+            "date_of_birth": "1863",
+            "date_of_death": "1940",
+            "place_of_death": null
+        },
         "location": "Neuer Markt 11/13",
         "person_info": "Johanna Zobel geb. Lewy(1863–1940)",
         "coordinates": null
     },
     {
         "image": null,
-        "inscription": "HIER WOHNTEMAXZOBELJG. 1888? ? ?",
+        "inscription": {
+            "text": "HIER WOHNTEMAXZOBELJG. 1888? ? ?",
+            "years": [
+                "1888"
+            ],
+            "places": [],
+            "date_of_birth": "1888",
+            "date_of_death": null,
+            "place_of_death": null
+        },
         "location": "Baustraße 48/49",
         "person_info": "Max Zobel",
         "coordinates": null

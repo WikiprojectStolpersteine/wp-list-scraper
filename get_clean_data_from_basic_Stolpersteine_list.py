@@ -38,16 +38,15 @@ def fetch_stolpersteine_data(list_name):
     table_rows = table.find_all("tr")
     for row in table_rows:
         td = row.find_all("td")
-        row_data = [cell.text.strip() for cell in td]
+        row_data = [str(cell) for cell in td]  # Keep raw HTML for coordinate extraction
         if row_data:
             rows.append(row_data)
-    # {{Coordinate|simple=y|text=ICON2|NS=53.503889|EW=13.991667|type=landmark|region=DE-MV|name=Stolpersteine für Benno Schlochauer, Lina Schlochauer, Siegbert Schlochauer, Jacob Steinberg, Max Steinberg, Gertrud Zobel und Max Zobel}}
+
     # Helper function to extract coordinates from template
     coord_pattern = re.compile(r"\{\{Coordinate\|.*?\|NS=([\d\.]+)\|EW=([\d\.]+)")
-    
+
     def extract_coordinates(cell):
         match = coord_pattern.search(cell)
-        print(match)
         if match:
             return {
                 "latitude": float(match.group(1)),
@@ -55,17 +54,49 @@ def fetch_stolpersteine_data(list_name):
             }
         return None
 
+    # Helper function to process inscription text
+    def process_inscription(inscription):
+        # Replace line breaks with spaces
+        formatted_inscription = inscription.replace("\n", " ").strip()
+
+        # Extract years and places
+        year_pattern = re.compile(r"\b(\d{4})\b")
+        place_pattern = re.compile(r"[A-Z][a-z]+(?: [A-Z][a-z]+)*")
+
+        years = year_pattern.findall(formatted_inscription)
+        places = place_pattern.findall(formatted_inscription)
+
+        # Extract specific dates and death places
+        dob_pattern = re.compile(r"JG\. (\d{4})")
+        dod_pattern = re.compile(r"ERMORDET (\d{4})")
+        death_place_pattern = re.compile(r"IN ([A-Z][a-z]+(?: [A-Z][a-z]+)*)")
+
+        date_of_birth = dob_pattern.search(formatted_inscription)
+        date_of_death = dod_pattern.search(formatted_inscription)
+        place_of_death = death_place_pattern.search(formatted_inscription)
+
+        return {
+            "text": formatted_inscription,
+            "years": years,
+            "places": places,
+            "date_of_birth": date_of_birth.group(1) if date_of_birth else None,
+            "date_of_death": date_of_death.group(1) if date_of_death else None,
+            "place_of_death": place_of_death.group(1) if place_of_death else None,
+        }
+
     # Process rows into structured data
     data = []
     for row in rows:
         if len(row) >= 4:  # Ensure sufficient columns exist
-            print(row[2])
+            raw_location = row[2]
+            raw_inscription = BeautifulSoup(row[1], "html.parser").text.strip()
+
             stolperstein_data = {
                 "image": None,  # Image extraction can be added if needed
-                "inscription": row[1],
-                "location": row[2],
-                "person_info": row[3],
-                "coordinates": extract_coordinates(row[2]),
+                "inscription": process_inscription(raw_inscription),
+                "location": BeautifulSoup(raw_location, "html.parser").text.strip(),
+                "person_info": BeautifulSoup(row[3], "html.parser").text.strip(),
+                "coordinates": extract_coordinates(raw_location),
             }
             data.append(stolperstein_data)
 
