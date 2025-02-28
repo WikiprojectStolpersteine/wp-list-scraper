@@ -5,32 +5,7 @@ import json
 import sys
 from urllib.parse import unquote
 
-
-def fetch_stolpersteine_data(list_name):
-    # Construct the Wikipedia URL
-    base_url = "https://de.wikipedia.org/wiki/"
-    url = base_url + list_name.replace(" ", "_")
-
-    # Fetch the rendered HTML content
-    response = requests.get(url)
-    if response.status_code != 200:
-        raise ValueError(
-            f"Failed to fetch the page. Status code: {response.status_code}"
-        )
-
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    # Find the table containing Stolperstein data
-    tables = soup.find_all("table")
-    table = None
-    for t in tables:
-        if "Stolperstein" in t.text:
-            table = t
-            break
-
-    if not table:
-        raise ValueError("No relevant table found on the page.")
-
+def parse_table(table):
     # Extract table headers
     headers = [header.text.strip() for header in table.find_all("th")]
 
@@ -129,6 +104,41 @@ def fetch_stolpersteine_data(list_name):
             }
             data.append(stolperstein_data)
 
+    return data
+
+
+def fetch_stolpersteine_data(list_name):
+    # Construct the Wikipedia URL
+    base_url = "https://de.wikipedia.org/wiki/"
+    url = base_url + list_name.replace(" ", "_")
+
+    # Fetch the rendered HTML content
+    response = requests.get(url)
+    if response.status_code != 200:
+        raise ValueError(
+            f"Failed to fetch the page. Status code: {response.status_code}"
+        )
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Find the table containing Stolperstein data
+    raw_tables = soup.find_all("table")
+    tables = []
+    for t in raw_tables:
+        if "erw-nav" in t.text:
+            print("excluding navigation table")
+            continue
+        if "Stolperstein" in t.text:
+            tables.append(t)
+        else:
+            print("unrelated table:", t.text[:50])
+
+    if not tables:
+        raise ValueError("No relevant tables found on the page.")
+
+    data = []
+    for table in tables:
+        data.extend(parse_table(table))
     return data
 
 
