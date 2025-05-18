@@ -6,7 +6,7 @@ import sys
 from urllib.parse import unquote
 
 
-def fetch_stolpersteine_data(list_name):
+def fetch_stolpersteine_data(list_name, column_aliases):
     # Construct the Wikipedia URL
     base_url = "https://de.wikipedia.org/wiki/"
     url = base_url + list_name.replace(" ", "_")
@@ -20,129 +20,133 @@ def fetch_stolpersteine_data(list_name):
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Find the table containing Stolperstein data
+    # Find all tables
     tables = soup.find_all("table")
-    table = None
-    for t in tables:
-        if "Stolperstein" in t.text:
-            table = t
-            break
-
-    if not table:
-        raise ValueError("No relevant table found on the page.")
-
-    # Extract table headers
-    headers = [header.text.strip() for header in table.find_all("th")]
-
-    # Extract table rows
-    rows = []
-    table_rows = table.find_all("tr")
-    for row in table_rows:
-        td = row.find_all("td")
-        row_data = [str(cell) for cell in td]  # Keep raw HTML for coordinate extraction
-        if row_data:
-            rows.append(row_data)
-
-    # Helper function to extract coordinates from template
-    coord_pattern = re.compile(r"\{\{Coordinate\|.*?\|NS=([\d\.]+)\|EW=([\d\.]+)")
-
-    def extract_coordinates(cell):
-        match = coord_pattern.search(cell)
-        if match:
-            return {
-                "latitude": float(match.group(1)),
-                "longitude": float(match.group(2)),
-            }
-        return None
-
-    # Helper function to process inscription text
-    def process_inscription(inscription):
-        # Replace line breaks with spaces
-        formatted_inscription = inscription.replace("\n", " ").strip()
-
-        # Extract years and places
-        year_pattern = re.compile(r"\b(\d{4})\b")
-        place_pattern = re.compile(r"[A-Z][a-z]+(?: [A-Z][a-z]+)*")
-
-        years = year_pattern.findall(formatted_inscription)
-        places = place_pattern.findall(formatted_inscription)
-
-        # Extract specific dates and death places
-        dob_pattern = re.compile(r"JG\. (\d{4})")
-        dod_pattern = re.compile(r"ERMORDET (\d{4})")
-        death_place_pattern = re.compile(r"IN ([A-Z][a-z]+(?: [A-Z][a-z]+)*)")
-
-        date_of_birth = dob_pattern.search(formatted_inscription)
-        date_of_death = dod_pattern.search(formatted_inscription)
-        place_of_death = death_place_pattern.search(formatted_inscription)
-
-        return {
-            "text": formatted_inscription,
-            "years": years,
-            "places": places,
-            "date_of_birth": date_of_birth.group(1) if date_of_birth else None,
-            "date_of_death": date_of_death.group(1) if date_of_death else None,
-            "place_of_death": place_of_death.group(1) if place_of_death else None,
-        }
-
-    # Helper function to process person info
-    def process_person_info(person_info):
-        pattern = re.compile(r"^(.*)\((\d{4})–(\d{4})\)$")
-        match = pattern.match(person_info.strip())
-        if match:
-            name = match.group(1).strip()
-            birth_year = match.group(2)
-            death_year = match.group(3)
-            return {
-                "name": name,
-                "date_of_birth": birth_year,
-                "date_of_death": death_year,
-            }
-        return {
-            "name": person_info.strip(),
-            "date_of_birth": None,
-            "date_of_death": None,
-        }
-
-    # Helper function to extract image filename
-    def extract_image(cell):
-        match = re.search(r"Datei:(.*?)(\")", cell)
-        if match:
-            return unquote(match.group(1))
-        return None
-
-    # Process rows into structured data
+    if not tables:
+        raise ValueError("No tables found on the page.")
+    
     data = []
-    for row in rows:
-        if len(row) >= 4:  # Ensure sufficient columns exist
-            raw_image = row[0]
-            raw_location = row[2]
-            raw_inscription = BeautifulSoup(row[1], "html.parser").text.strip()
-            raw_person_info = BeautifulSoup(row[3], "html.parser").text.strip()
 
-            stolperstein_data = {
-                "image": extract_image(raw_image),
-                "inscription": process_inscription(raw_inscription),
-                "location": BeautifulSoup(raw_location, "html.parser").text.strip(),
-                "person_info": process_person_info(raw_person_info),
-                "coordinates": extract_coordinates(raw_location),
-            }
-            data.append(stolperstein_data)
+    # Iterate over tables
+    for table in tables:
+        # Get the table name from the header above the table
+        header = table.find_previous("h2")
+        table_name = header.text.strip() if header else list_name
+        print(table_name)
+        if table_name == "Einzelnachweise":
+            # Skip unusable tables
+            print("Skipping a table called: " + table_name)
+            continue
+        # Extract headers
+        headers = [th.text.strip() for th in table.find_all("th")]
+        print("Headers: " + str(headers))
+
+        # Map headers to column indices based on aliases
+        column_indices = {}
+        for key, aliases in column_aliases.items():
+            for alias in aliases:
+                if alias in headers:
+                    column_indices[key] = headers.index(alias)
+                    break
+
+        # Process table rows
+        rows = table.find_all("tr")[1:]  # Skip the header row
+        for row in rows:
+            cells = row.find_all("td")
+            #if len(cells) < len(column_indices):
+            #    print(cells)
+            #    continue
+
+            row_data = {}
+            for key, index in column_indices.items():
+                cell_html = str(cells[index])
+                cell_text = BeautifulSoup(cell_html, "html.parser").text.strip()
+
+                if key == "image":
+                    row_data["image"] = extract_image(cell_html)
+                elif key == "coordinates":
+                    row_data["coordinates"] = extract_coordinates(cell_html)
+                elif key == "inscription":
+                    row_data["inscription"] = process_inscription(cell_text)
+                elif key == "person_info":
+                    row_data["person_info"] = process_person_info(cell_text)
+                else:
+                    row_data[key] = cell_text
+
+            row_data["table_name"] = table_name
+            data.append(row_data)
+    
 
     return data
 
 
+# Helper function to extract coordinates
+def extract_coordinates(cell):
+    coord_pattern = re.compile(r"\{\{Coordinate\|.*?\|NS=([\d\.]+)\|EW=([\d\.]+)")
+    match = coord_pattern.search(cell)
+    if match:
+        return {
+            "latitude": float(match.group(1)),
+            "longitude": float(match.group(2)),
+        }
+    return None
+
+
+# Helper function to extract image filename
+def extract_image(cell):
+    match = re.search(r"Datei:(.*?)(\||\]\])", cell)
+    if match:
+        return unquote(match.group(1))
+    return None
+
+
+# Helper function to process inscription text
+def process_inscription(inscription):
+    formatted_inscription = inscription.replace("\n", " ").strip()
+    year_pattern = re.compile(r"\b(\d{4})\b")
+    dob_pattern = re.compile(r"JG\. (\d{4})")
+    dod_pattern = re.compile(r"ERMORDET (\d{4})")
+    death_place_pattern = re.compile(r"IN ([A-Z][a-z]+(?: [A-Z][a-z]+)*)")
+
+    years = year_pattern.findall(formatted_inscription)
+    dob = dob_pattern.search(formatted_inscription)
+    dod = dod_pattern.search(formatted_inscription)
+    death_place = death_place_pattern.search(formatted_inscription)
+
+    return {
+        "text": formatted_inscription,
+        "years": years,
+        "date_of_birth": dob.group(1) if dob else None,
+        "date_of_death": dod.group(1) if dod else None,
+        "place_of_death": death_place.group(1) if death_place else None,
+    }
+
+
+# Helper function to process person info
+def process_person_info(person_info):
+    pattern = re.compile(r"^(.*)\((\d{4})–(\d{4})\)$")
+    match = pattern.match(person_info.strip())
+    if match:
+        return {
+            "name": match.group(1).strip(),
+            "date_of_birth": match.group(2),
+            "date_of_death": match.group(3),
+        }
+    return {"name": person_info.strip(), "date_of_birth": None, "date_of_death": None}
+
+
 if __name__ == "__main__":
-    list_name = ""
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <list_name>")
-        print("Using default list name: Liste_der_Stolpersteine_in_Pasewalk")
-        list_name = "Liste_der_Stolpersteine_in_Pasewalk"
-    else:
-        list_name = sys.argv[1]
+    list_name = "Liste_der_Stolpersteine_in_Pasewalk"
+    column_aliases = {
+        "image": ["Stolperstein"],
+        "inscription": ["Inschrift"],
+        "location": ["Verlegeort", "Adresse"],
+        "person_info": ["Name, Leben", "Person"],
+        "coordinates": ["Verlegeort"],
+    }
 
     try:
-        stolpersteine_data = fetch_stolpersteine_data(list_name)
+        stolpersteine_data = fetch_stolpersteine_data(list_name, column_aliases)
 
         # Save the data to a JSON file
         output_file = f"stolpersteine_{list_name.replace(' ', '_')}.json"
