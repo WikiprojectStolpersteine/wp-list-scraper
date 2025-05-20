@@ -1,9 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
-import re
 import json
-import sys
-from urllib.parse import unquote
+
+from coordinates import extract_coordinates
+from image import extract_image
+from inscription import process_inscription
+from person import process_person_info
 
 
 def fetch_stolpersteine_data(list_name, column_aliases):
@@ -78,61 +80,6 @@ def fetch_stolpersteine_data(list_name, column_aliases):
     
 
     return data
-
-
-# Helper function to extract coordinates
-def extract_coordinates(cell):
-    coord_pattern = re.compile(r"\{\{Coordinate\|.*?\|NS=([\d\.]+)\|EW=([\d\.]+)")
-    match = coord_pattern.search(cell)
-    if match:
-        return {
-            "latitude": float(match.group(1)),
-            "longitude": float(match.group(2)),
-        }
-    return None
-
-
-# Helper function to extract image filename
-def extract_image(cell):
-    match = re.search(r"Datei:(.*?)(\||\]\])", cell)
-    if match:
-        return unquote(match.group(1))
-    return None
-
-
-# Helper function to process inscription text
-def process_inscription(inscription):
-    formatted_inscription = inscription.replace("\n", " ").strip()
-    year_pattern = re.compile(r"\b(\d{4})\b")
-    dob_pattern = re.compile(r"JG\. (\d{4})")
-    dod_pattern = re.compile(r"ERMORDET (\d{4})")
-    death_place_pattern = re.compile(r"IN ([A-Z][a-z]+(?: [A-Z][a-z]+)*)")
-
-    years = year_pattern.findall(formatted_inscription)
-    dob = dob_pattern.search(formatted_inscription)
-    dod = dod_pattern.search(formatted_inscription)
-    death_place = death_place_pattern.search(formatted_inscription)
-
-    return {
-        "text": formatted_inscription,
-        "years": years,
-        "date_of_birth": dob.group(1) if dob else None,
-        "date_of_death": dod.group(1) if dod else None,
-        "place_of_death": death_place.group(1) if death_place else None,
-    }
-
-
-# Helper function to process person info
-def process_person_info(person_info):
-    pattern = re.compile(r"^(.*)\((\d{4})–(\d{4})\)$")
-    match = pattern.match(person_info.strip())
-    if match:
-        return {
-            "name": match.group(1).strip(),
-            "date_of_birth": match.group(2),
-            "date_of_death": match.group(3),
-        }
-    return {"name": person_info.strip(), "date_of_birth": None, "date_of_death": None}
 
 
 if __name__ == "__main__":
