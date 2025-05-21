@@ -1,41 +1,56 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 import argparse
+import wikitextparser as wtp
 
 from coordinates import extract_coordinates
 from image import extract_image
 from inscription import process_inscription
+from location import process_location
 from person import process_person_info
 
 
-def fetch_stolpersteine_data(url, list_name, column_aliases):
-    print(f"Fetching data from: {url}")
+def fetch_stolpersteine_data_wikitext(list_name, column_aliases):
+    print(f"Fetching Wikitext for: {list_name}")
     
-    response = requests.get(url)
+    response = requests.get(
+        "https://de.wikipedia.org/w/api.php",
+        params={
+            "action": "query",
+            "prop": "revisions",
+            "rvprop": "content",
+            "format": "json",
+            "titles": list_name
+        }
+    )
+
     if response.status_code != 200:
-        raise ValueError(
-            f"Failed to fetch the page. Status code: {response.status_code}"
-        )
-
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    tables = soup.find_all("table")
-    if not tables:
-        raise ValueError("No tables found on the page.")
+        raise ValueError(f"Failed to fetch the page. Status code: {response.status_code}")
     
+    pages = response.json()["query"]["pages"]
+    page_content = next(iter(pages.values()))["revisions"][0]["*"]
+
+    parsed = wtp.parse(page_content)
+    tables = parsed.tables
+    sections = parsed.sections
+
+    if not tables:
+        raise ValueError("No tables found in the Wikitext.")
+
     data = []
 
     for table in tables:
-        header = table.find_previous("h2")
-        table_name = header.text.strip() if header else list_name
-        print(f"Processing table: {table_name}")
+        table_code = table.string
+        section_title = find_section_title_for_table(sections, table_code)
+        table_name = section_title or list_name
         if table_name == "Einzelnachweise":
-            print("Skipping a table called: Einzelnachweise")
+            print("Skipping table 'Einzelnachweise'")
             continue
 
-        headers = [th.text.strip() for th in table.find_all("th")]
-        print("Headers found: " + str(headers))
+        print(f"Processing table: {table_name}")
+        wikitable = wtp.parse(table_code).tables[0]
+        headers = [h.strip() for h in wikitable.data()[0]]
+        print("Headers found:", headers)
 
         column_indices = {}
         for key, aliases in column_aliases.items():
@@ -44,25 +59,25 @@ def fetch_stolpersteine_data(url, list_name, column_aliases):
                     column_indices[key] = headers.index(alias)
                     break
 
-        rows = table.find_all("tr")[1:]  # Skip header
-        for row in rows:
-            cells = row.find_all("td")
-
+        for row in wikitable.data()[1:]:
             row_data = {}
             for key, index in column_indices.items():
-                cell_html = str(cells[index])
-                cell_text = BeautifulSoup(cell_html, "html.parser").text.strip()
+                if index >= len(row):
+                    continue
+                cell = row[index].strip()
 
                 if key == "image":
-                    row_data["image"] = extract_image(cell_html)
+                    row_data["image"] = extract_image(cell)
                 elif key == "coordinates":
-                    row_data["coordinates"] = extract_coordinates(cell_html)
+                    row_data["coordinates"] = extract_coordinates(cell)
                 elif key == "inscription":
-                    row_data["inscription"] = process_inscription(cell_text)
+                    row_data["inscription"] = process_inscription(cell)
                 elif key == "person_info":
-                    row_data["person_info"] = process_person_info(cell_text)
+                    row_data["person_info"] = process_person_info(cell)
+                elif key == "location":
+                    row_data["location"] = process_location(cell)
                 else:
-                    row_data[key] = cell_text
+                    row_data[key] = cell
 
             row_data["table_name"] = table_name
             data.append(row_data)
@@ -70,22 +85,25 @@ def fetch_stolpersteine_data(url, list_name, column_aliases):
     return data
 
 
+def find_section_title_for_table(sections, table_code):
+    for section in sections:
+        if table_code in section.string:
+            return section.title.strip() if section.title else None
+    return None
+
+
 if __name__ == "__main__":
     default_list_name = "Liste_der_Stolpersteine_in_Pasewalk"
-    default_url = f"https://de.wikipedia.org/wiki/{default_list_name}"
 
-    parser = argparse.ArgumentParser(
-        description="Fetch Stolpersteine data from a Wikipedia list"
-    )
+    parser = argparse.ArgumentParser(description="Fetch Stolpersteine data from a Wikipedia list using Wikitext")
     parser.add_argument(
-        "--url",
+        "--title",
         type=str,
-        help="Full URL of the Wikipedia list page (optional). If not provided, Pasewalk list is used.",
+        help="Wikipedia page title (e.g. Liste_der_Stolpersteine_in_Pasewalk). If not provided, default is used.",
     )
 
     args = parser.parse_args()
-    url = args.url if args.url else default_url
-    list_name = url.split("/")[-1]
+    list_name = args.title if args.title else default_list_name
 
     column_aliases = {
         "image": ["Stolperstein"],
@@ -96,14 +114,12 @@ if __name__ == "__main__":
     }
 
     try:
-        stolpersteine_data = fetch_stolpersteine_data(url, list_name, column_aliases)
+        stolpersteine_data = fetch_stolpersteine_data_wikitext(list_name, column_aliases)
 
         output_file = f"lists/stolpersteine_{list_name.replace(' ', '_')}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(stolpersteine_data, f, ensure_ascii=False, indent=4)
 
-        print(
-            f"Extracted {len(stolpersteine_data)} entries. Data saved to {output_file}."
-        )
+        print(f"Extracted {len(stolpersteine_data)} entries. Data saved to {output_file}.")
     except Exception as e:
         print(f"Error: {e}")
