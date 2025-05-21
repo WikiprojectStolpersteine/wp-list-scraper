@@ -98,7 +98,7 @@ if __name__ == "__main__":
     try:
         stolpersteine_data = fetch_stolpersteine_data(url, list_name, column_aliases)
 
-        output_file = f"stolpersteine_{list_name.replace(' ', '_')}.json"
+        output_file = f"lists/stolpersteine_{list_name.replace(' ', '_')}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(stolpersteine_data, f, ensure_ascii=False, indent=4)
 
