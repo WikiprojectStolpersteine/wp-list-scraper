@@ -4,7 +4,6 @@
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -15,16 +14,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Adolf_Arndt.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEADOLF ARNDTJG. 1870DEPORTIERT 1942THERESIENSTADTERMORDET 12.7.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1870",
             "date_of_death": null,
             "place_of_death": null
@@ -35,14 +34,14 @@
             "date_of_birth": "1870",
             "date_of_death": "1944"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Max_Back.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMAX BACKJG. 1874DEPORTIERT 1941LODZ / LITZMANNNSTADTERMORDET 1944AUSCHWITZ",
             "years": [],
-            "places": [],
             "date_of_birth": "1874",
             "date_of_death": "1944",
             "place_of_death": null
@@ -53,14 +52,14 @@
             "date_of_birth": "1874",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -71,16 +70,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Gertrud_Behrendt_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEGERTRUD BEHRENDTJG. 1899DEPORTIERT 1943AUSCHWITZERMORDET 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1899",
             "date_of_death": "1943",
             "place_of_death": null
@@ -91,14 +90,14 @@
             "date_of_birth": "1899",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -109,16 +108,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Martha_Behrendt_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMARTHA BEHRENDTGEB. GETZELJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1873",
             "date_of_death": null,
             "place_of_death": null
@@ -129,14 +128,14 @@
             "date_of_birth": "1873",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Paul_Behrendt_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEPAUL BEHRENDTJG. 1860VERTRIEBEN 1936TOT 12.12.1939INBERLIN",
             "years": [],
-            "places": [],
             "date_of_birth": "1860",
             "date_of_death": null,
             "place_of_death": null
@@ -147,16 +146,16 @@
             "date_of_birth": "1860",
             "date_of_death": "1939"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Else_Blau_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEELSE BLAUGEB. STEINBERGJG. 1904DEPORTIERT 1943ERMORDET 1944 INAUSCHWITZ",
             "years": [
                 "1944"
             ],
-            "places": [],
             "date_of_birth": "1904",
             "date_of_death": "1944",
             "place_of_death": null
@@ -167,16 +166,16 @@
             "date_of_birth": "1904",
             "date_of_death": "1944"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Bernhard_Brezinski_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEBERNHARD BREZINSKIJG. 1924TOT 1943 INBERLIN",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1924",
             "date_of_death": null,
             "place_of_death": null
@@ -187,16 +186,16 @@
             "date_of_birth": "1924",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Josef_Brzezinski_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEJOSEF BRZEZINSKIJG. 1893DEPORTIERT 1943AUSCHWITZERMORDET 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1893",
             "date_of_death": "1943",
             "place_of_death": null
@@ -207,16 +206,16 @@
             "date_of_birth": "1893",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Gertrud_Brzezinski_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEGERTRUD BRZEZINSKIGEB. RÄSNERJG. 1892DEPORTIERT 1943AUSCHWITZERMORDET 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1892",
             "date_of_death": "1943",
             "place_of_death": null
@@ -227,16 +226,16 @@
             "date_of_birth": "1892",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Hedwig_Salemon,_Betty_Cohn.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEBETTY COHNGEB. LOEWEJG. 1867DEPORTIERT 1942THERESIENSTADTTOT 13.4.1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1867",
             "date_of_death": null,
             "place_of_death": null
@@ -247,16 +246,16 @@
             "date_of_birth": "1867",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Jenny_Davidsohn_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEJENNY DAVIDSOHNGEB. COHNJG. 1868DEPORTIERT 1942THERESIENSTADTERMORDET 5.7.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1868",
             "date_of_death": null,
             "place_of_death": null
@@ -267,16 +266,16 @@
             "date_of_birth": "1868",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Julius,_Grete,_Herbert_Dobrin.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEGRETE DOBRINGEB. ZOBELJG. 1894DEPORTIERT 1943AUSCHWITZERMORDET 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1894",
             "date_of_death": "1943",
             "place_of_death": null
@@ -287,16 +286,16 @@
             "date_of_birth": "1894",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Julius,_Grete,_Herbert_Dobrin.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEHERBERT DOBRINJG. 1920DEPORTIERT 1943AUSCHWITZERMORDET 6.6.1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1920",
             "date_of_death": null,
             "place_of_death": null
@@ -307,16 +306,16 @@
             "date_of_birth": "1920",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Julius,_Grete,_Herbert_Dobrin.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEJULIUS DOBRINJG. 1884DEPORTIERT 1943AUSCHWITZERMORDET 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1884",
             "date_of_death": "1943",
             "place_of_death": null
@@ -327,14 +326,14 @@
             "date_of_birth": "1884",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -345,14 +344,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -363,14 +362,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -381,14 +380,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -399,14 +398,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Else_Flatau_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEELSE FLATAUGEB. RÄSNERJG. 1888DEPORTIERT 1942THERESIENSTADTERMORDET 1943AUSCHWITZ",
             "years": [],
-            "places": [],
             "date_of_birth": "1888",
             "date_of_death": "1943",
             "place_of_death": null
@@ -417,14 +416,14 @@
             "date_of_birth": "1888",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Emmy_Friedländer.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEEMMYFRIEDLÄNDERJG. 1880DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET",
             "years": [],
-            "places": [],
             "date_of_birth": "1880",
             "date_of_death": null,
             "place_of_death": null
@@ -435,16 +434,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Lina_Friedländer.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTELINAFRIEDLÄNDERVERH. BRADTJG. 1887DEPORTIERT 1941KOWNOERMORDET 1941",
             "years": [
                 "1941"
             ],
-            "places": [],
             "date_of_birth": "1887",
             "date_of_death": "1941",
             "place_of_death": null
@@ -455,14 +454,14 @@
             "date_of_birth": "1887",
             "date_of_death": "1941"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Martha_Friedländer_2.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMARTHAFRIEDLÄNDERVERH. COHNJG. 1879DEPORTIERT 1941LODZ / LITZMANNSTADTERMORDET 8.5.1942CHELMNO / KULMHOF",
             "years": [],
-            "places": [],
             "date_of_birth": "1879",
             "date_of_death": null,
             "place_of_death": null
@@ -473,16 +472,16 @@
             "date_of_birth": "1879",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Elisabeth_Königsfeld,_Selma_Westenberg,_Regina_Manasse,_Ida_Havelburg.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEIDA HAVELBURGJG. 1878DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET 1944",
             "years": [
                 "1944"
             ],
-            "places": [],
             "date_of_birth": "1878",
             "date_of_death": "1944",
             "place_of_death": null
@@ -493,14 +492,14 @@
             "date_of_birth": "1878",
             "date_of_death": "1944"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -511,16 +510,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Erna_Heumann,_Marta_Lewin.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEERNA HEUMANNGEB. LEWINJG. 1886DEPORTIERT 1942ERMORDET 1942 INAUSCHWITZ",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1886",
             "date_of_death": "1942",
             "place_of_death": null
@@ -531,14 +530,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -549,16 +548,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Elisabeth_Königsfeld,_Selma_Westenberg,_Regina_Manasse,_Ida_Havelburg.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEELISABETHKÖNIGSFELDGEB. HAVELBURGJG. 1872DEPORTIERT 1942AUSCHWITZERMORDET 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1872",
             "date_of_death": "1943",
             "place_of_death": null
@@ -569,14 +568,14 @@
             "date_of_birth": "1872",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -587,14 +586,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -605,16 +604,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Regina_Klein.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEREGINA KLEINJG. 1892DEPORTIERT 1942SOBIBORERMORDET 3.6.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1892",
             "date_of_death": null,
             "place_of_death": null
@@ -625,14 +624,14 @@
             "date_of_birth": "1892",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -643,14 +642,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -661,14 +660,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -679,14 +678,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -697,16 +696,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Albert,_Klara_Lefebre.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEKLARA LEFEBREGEB. SCHLOCHAUERJG. 1901DEPORTIERT 1940PIASKIERMORDET 1942 IMKZ LUBLIN",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1901",
             "date_of_death": "1942",
             "place_of_death": null
@@ -717,16 +716,16 @@
             "date_of_birth": "1901",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Albert,_Klara_Lefebre.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEALBERT LEFEVREJG. 1860DEPORTIERT 1940LUBLINERMORDET 1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1860",
             "date_of_death": "1942",
             "place_of_death": null
@@ -737,14 +736,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Martha,Adolf_Lewin.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEADOLF LEWINJG. 1928DEPORTIERT 1942ERMORDET INPIASKI",
             "years": [],
-            "places": [],
             "date_of_birth": "1928",
             "date_of_death": null,
             "place_of_death": null
@@ -755,16 +754,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Martha,Adolf_Lewin.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMARTHA LEWINJG. 1882DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1882",
             "date_of_death": "1943",
             "place_of_death": null
@@ -775,16 +774,16 @@
             "date_of_birth": "1882",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Siegfried_Loewe,_Martha_Nathansohn.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTESIEGFRIED LOEWEJG. 1862DEPORTIERT 1940KZ LUBLINERMORDET 1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1862",
             "date_of_death": "1942",
             "place_of_death": null
@@ -795,16 +794,16 @@
             "date_of_birth": "1862",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Meta_Louis_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMETA LOUISGEB. JOELJG. 1868DEPORTIERT 1942THERESIENSTADTTOT 3.9.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1868",
             "date_of_death": null,
             "place_of_death": null
@@ -815,16 +814,16 @@
             "date_of_birth": "1868",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Elisabeth_Königsfeld,_Selma_Westenberg,_Regina_Manasse,_Ida_Havelburg.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEREGINA MANASSEGEB. HAVELBURGJG. 1872DEPORTIERT 1942RIGATOT 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1872",
             "date_of_death": null,
             "place_of_death": null
@@ -835,14 +834,14 @@
             "date_of_birth": "1872",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Martha_Mathias_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMARTHA MATHIASJG. 1887DEPORTIERT 1943RIGAERMORDET",
             "years": [],
-            "places": [],
             "date_of_birth": "1887",
             "date_of_death": null,
             "place_of_death": null
@@ -853,14 +852,14 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -871,16 +870,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Rafael,Anneliese_Michaelis.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEANNELIESEMICHAELISJG. 1908DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1908",
             "date_of_death": "1943",
             "place_of_death": null
@@ -891,16 +890,16 @@
             "date_of_birth": "1908",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Else_Michaelis.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEELSE MICHAELISGEB. LEWINJG. 1881DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1881",
             "date_of_death": "1943",
             "place_of_death": null
@@ -911,16 +910,16 @@
             "date_of_birth": "1881",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Rafael,Anneliese_Michaelis.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTERAFAEL MICHAELISJG. 1872DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1872",
             "date_of_death": "1943",
             "place_of_death": null
@@ -931,16 +930,16 @@
             "date_of_birth": "1872",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Gertrud_Segal,Max_Sternberg,_Margarete_Michel.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMARGARETE MICHELGEB. STERNBERGJG. 1877DEPORTIERT 1942THERESIENSTADTTOT 19.4.1944",
             "years": [
                 "1944"
             ],
-            "places": [],
             "date_of_birth": "1877",
             "date_of_death": null,
             "place_of_death": null
@@ -951,16 +950,16 @@
             "date_of_birth": "1877",
             "date_of_death": "1944"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Siegfried_Loewe,_Martha_Nathansohn.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMARTHA NATHANSOHNGEB. LOEWEJG. 1864DEPORTIERT 1942THERESIENSTADTERMORDET 5.12.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1864",
             "date_of_death": null,
             "place_of_death": null
@@ -971,16 +970,16 @@
             "date_of_birth": "1864",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Therese_Ostheim_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTETHERESE OSTHEIMGEB. ABRAHAMSOHNJG. 1868DEPORTIERT 1942ERMORDET 1943 INRIGA",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1868",
             "date_of_death": "1943",
             "place_of_death": null
@@ -991,16 +990,16 @@
             "date_of_birth": "1868",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Geraldine_Pless.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEGERALDINE PLESSGEB. AHRONFELDJG. 1863DEPORTIERT 1942THERESIENSTADTTOT 6.12.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1863",
             "date_of_death": null,
             "place_of_death": null
@@ -1011,16 +1010,16 @@
             "date_of_birth": "1863",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Bianka_Putziger_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEBIANKA PUTZIGER GEB. HIRSCHLAFFJG. 1811DEPORTIERT 1942GLUSKERMORDET 1942 INMAJDANEK",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1811",
             "date_of_death": "1942",
             "place_of_death": null
@@ -1031,16 +1030,16 @@
             "date_of_birth": "1811",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Blanka_Rosenthal_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEBLANKA ROSENTHALGEB. MATHIASJG. 1894DEPORTIERT 1942RIGAERMORDET 29.10.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1894",
             "date_of_death": null,
             "place_of_death": null
@@ -1051,16 +1050,16 @@
             "date_of_birth": "1894",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Arthur_Rosenzweig_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEARTHURROSENZWEIGJG. 1901DEPORTIERT 1940LUBLINERMORDET 1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1901",
             "date_of_death": "1942",
             "place_of_death": null
@@ -1071,16 +1070,16 @@
             "date_of_birth": "1901",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Gustav_Rosenzweig_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEGUSTAVROSENZWEIGJG. 1862DEPORTIERT 1940LUBLINERMORDET 1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1862",
             "date_of_death": "1942",
             "place_of_death": null
@@ -1091,16 +1090,16 @@
             "date_of_birth": "1862",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Hedwig_Salemon,_Betty_Cohn.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEHEDWIG SALEMONGEB. LOEWEJG. 1865DEPORTIERT 1942THERESIENSTADT1942 TREBLINKAERMORDET 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1865",
             "date_of_death": "1943",
             "place_of_death": null
@@ -1111,16 +1110,16 @@
             "date_of_birth": "1865",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Jenny_Sänger_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEJENNY SÄNGERJG. 1856DEPORTIERT 1942THERESIENSTADTTOT 2.3.1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1856",
             "date_of_death": null,
             "place_of_death": null
@@ -1131,14 +1130,14 @@
             "date_of_birth": "1856",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Siegbert_Sänger_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTESIEGBERT SÄNGERJG. 1878DEPORTIERT 1942GHETTO WARSCHAUERMORDET",
             "years": [],
-            "places": [],
             "date_of_birth": "1878",
             "date_of_death": null,
             "place_of_death": null
@@ -1149,16 +1148,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Benno,Siegbert,Lina_Schlochauer.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEBENNOSCHLOCHAUERJG. 1864DEPORTIERT 1940KZ LUBLINERMORDET 1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1864",
             "date_of_death": "1942",
             "place_of_death": null
@@ -1169,16 +1168,16 @@
             "date_of_birth": "1864",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Benno,Siegbert,Lina_Schlochauer.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTELINA SCHLOCHAUERGEB. STEINBERGJG. 1867DEPORTIERT 1940PIASKIERMORDET 22.5.1940 IMKZ LUBLIN",
             "years": [
                 "1940"
             ],
-            "places": [],
             "date_of_birth": "1867",
             "date_of_death": null,
             "place_of_death": null
@@ -1189,16 +1188,16 @@
             "date_of_birth": "1867",
             "date_of_death": "1940"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Benno,Siegbert,Lina_Schlochauer.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTESIEGBERTSCHLOCHAUERJG. 1903DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1903",
             "date_of_death": "1942",
             "place_of_death": null
@@ -1209,16 +1208,16 @@
             "date_of_birth": "1903",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Gertrud_Segal,Max_Sternberg,_Margarete_Michel.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEGERTRUD SEGALLGEB. STERNBERGJG. 1881VOR  DEPORTATIONFLUCHT IN DEN TOD22.1.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1881",
             "date_of_death": null,
             "place_of_death": null
@@ -1229,14 +1228,14 @@
             "date_of_birth": "1881",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Sarah_Stankowski.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTESARAHSTANKOWSKIGEB. GORTATOWSKIJG. 1869TOT 17.6.1943VOR DER DEPORTATION",
             "years": [],
-            "places": [],
             "date_of_birth": "1869",
             "date_of_death": null,
             "place_of_death": null
@@ -1247,16 +1246,16 @@
             "date_of_birth": "1869",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Betty_Steinberg_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEBETTY STEINBERGGEB. BERLOWITZJG. 1876DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1876",
             "date_of_death": "1943",
             "place_of_death": null
@@ -1267,16 +1266,16 @@
             "date_of_birth": "1876",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Max,_Jacob_Steinberg.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEJACOB STEINBERGJG. 1877DEPORTIERT 1941TOT 1943 INLODZ / LITZMANNSTADT",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1877",
             "date_of_death": null,
             "place_of_death": null
@@ -1287,16 +1286,16 @@
             "date_of_birth": "1877",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Julius_Steinberg_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEJULIUS STEINBERGJG. 1873DEPORTIERT 1943THERESIENSTADTTOT 9.1.1944",
             "years": [
                 "1944"
             ],
-            "places": [],
             "date_of_birth": "1873",
             "date_of_death": null,
             "place_of_death": null
@@ -1307,16 +1306,16 @@
             "date_of_birth": "1873",
             "date_of_death": "1944"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Max,_Jacob_Steinberg.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMAX STEINBERGJG. 187XDEPORTIERT 1942AUSCHWITZERMORDET 13.2.1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -1327,16 +1326,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Gertrud_Segal,Max_Sternberg,_Margarete_Michel.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEMAX STERNBERGJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 10.11.1942",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1873",
             "date_of_death": null,
             "place_of_death": null
@@ -1347,14 +1346,14 @@
             "date_of_birth": "1873",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
         "image": null,
         "inscription": {
             "text": "",
             "years": [],
-            "places": [],
             "date_of_birth": null,
             "date_of_death": null,
             "place_of_death": null
@@ -1365,16 +1364,16 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Thea_Tosk_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTETHEA TOSKGEB. BAYERJG. 1904DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
             "years": [
                 "1942"
             ],
-            "places": [],
             "date_of_birth": "1904",
             "date_of_death": "1942",
             "place_of_death": null
@@ -1385,16 +1384,16 @@
             "date_of_birth": "1904",
             "date_of_death": "1942"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Frieda_Translateur_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEFRIEDATRANSLATEURGEB. PUTZIGERJG. 1905DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1905",
             "date_of_death": "1943",
             "place_of_death": null
@@ -1405,16 +1404,16 @@
             "date_of_birth": "1905",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_für_Hugo_Translateur_(Pasewalk).jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEHUGOTRANSLATEURJG. 1883DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1883",
             "date_of_death": "1943",
             "place_of_death": null
@@ -1425,16 +1424,16 @@
             "date_of_birth": "1883",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Elisabeth_Königsfeld,_Selma_Westenberg,_Regina_Manasse,_Ida_Havelburg.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTESELMA WESTENBERGGEB. HAVELBURGJG. 1874DEPORTIERT 1942RIGATOT 1943",
             "years": [
                 "1943"
             ],
-            "places": [],
             "date_of_birth": "1874",
             "date_of_death": null,
             "place_of_death": null
@@ -1445,14 +1444,14 @@
             "date_of_birth": "1874",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Max,Gertrud_Zobel.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEGERTRUD ZOBELGEB. SIMONJG. 1888DEPORTIERT 1940BELZYCEERMORDET INLUBLIN",
             "years": [],
-            "places": [],
             "date_of_birth": "1888",
             "date_of_death": null,
             "place_of_death": null
@@ -1463,16 +1462,16 @@
             "date_of_birth": "1888",
             "date_of_death": "1943"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Johanna_Zobel.jpg",
+        "image": null,
         "inscription": {
             "text": "HIER WOHNTEJOHANNA ZOBELGEB. LEWYJG. 1863DEPORTIERT 1940BELZYCEERMORDET 1940 INLUBLIN",
             "years": [
                 "1940"
             ],
-            "places": [],
             "date_of_birth": "1863",
             "date_of_death": "1940",
             "place_of_death": null
@@ -1483,16 +1482,16 @@
             "date_of_birth": "1863",
             "date_of_death": "1940"
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Max,Gertrud_Zobel.jpg",
+        "image": "Stolperstein_Max,Gertrud_Zobel.jpg\"><img class=\"mw-file-element\" data-file-height=\"2988\" data-file-width=\"5312\" decoding=\"async\" height=\"68\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Stolperstein_Max,Gertrud_Zobel.jpg/120px-Stolperstein_Max,Gertrud_Zobel.jpg\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Stolperstein_Max,Gertrud_Zobel.jpg/250px-Stolperstein_Max,Gertrud_Zobel.jpg 1.5x\" width=\"120\"/></a></span>",
         "inscription": {
             "text": "HIER WOHNTEMAXZOBELJG. 1888? ? ?",
             "years": [
                 "1888"
             ],
-            "places": [],
             "date_of_birth": "1888",
             "date_of_death": null,
             "place_of_death": null
@@ -1503,6 +1502,7 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null
+        "coordinates": null,
+        "table_name": "Verlegte Stolpersteine"
     }
 ]

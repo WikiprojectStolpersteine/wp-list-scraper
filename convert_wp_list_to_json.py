@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import argparse
 
 from coordinates import extract_coordinates
 from image import extract_image
@@ -8,12 +9,9 @@ from inscription import process_inscription
 from person import process_person_info
 
 
-def fetch_stolpersteine_data(list_name, column_aliases):
-    # Construct the Wikipedia URL
-    base_url = "https://de.wikipedia.org/wiki/"
-    url = base_url + list_name.replace(" ", "_")
-
-    # Fetch the rendered HTML content
+def fetch_stolpersteine_data(url, list_name, column_aliases):
+    print(f"Fetching data from: {url}")
+    
     response = requests.get(url)
     if response.status_code != 200:
         raise ValueError(
@@ -22,28 +20,23 @@ def fetch_stolpersteine_data(list_name, column_aliases):
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Find all tables
     tables = soup.find_all("table")
     if not tables:
         raise ValueError("No tables found on the page.")
     
     data = []
 
-    # Iterate over tables
     for table in tables:
-        # Get the table name from the header above the table
         header = table.find_previous("h2")
         table_name = header.text.strip() if header else list_name
-        print(table_name)
+        print(f"Processing table: {table_name}")
         if table_name == "Einzelnachweise":
-            # Skip unusable tables
-            print("Skipping a table called: " + table_name)
+            print("Skipping a table called: Einzelnachweise")
             continue
-        # Extract headers
-        headers = [th.text.strip() for th in table.find_all("th")]
-        print("Headers: " + str(headers))
 
-        # Map headers to column indices based on aliases
+        headers = [th.text.strip() for th in table.find_all("th")]
+        print("Headers found: " + str(headers))
+
         column_indices = {}
         for key, aliases in column_aliases.items():
             for alias in aliases:
@@ -51,13 +44,9 @@ def fetch_stolpersteine_data(list_name, column_aliases):
                     column_indices[key] = headers.index(alias)
                     break
 
-        # Process table rows
-        rows = table.find_all("tr")[1:]  # Skip the header row
+        rows = table.find_all("tr")[1:]  # Skip header
         for row in rows:
             cells = row.find_all("td")
-            #if len(cells) < len(column_indices):
-            #    print(cells)
-            #    continue
 
             row_data = {}
             for key, index in column_indices.items():
@@ -77,13 +66,27 @@ def fetch_stolpersteine_data(list_name, column_aliases):
 
             row_data["table_name"] = table_name
             data.append(row_data)
-    
 
     return data
 
 
 if __name__ == "__main__":
-    list_name = "Liste_der_Stolpersteine_in_Pasewalk"
+    default_list_name = "Liste_der_Stolpersteine_in_Pasewalk"
+    default_url = f"https://de.wikipedia.org/wiki/{default_list_name}"
+
+    parser = argparse.ArgumentParser(
+        description="Fetch Stolpersteine data from a Wikipedia list"
+    )
+    parser.add_argument(
+        "--url",
+        type=str,
+        help="Full URL of the Wikipedia list page (optional). If not provided, Pasewalk list is used.",
+    )
+
+    args = parser.parse_args()
+    url = args.url if args.url else default_url
+    list_name = url.split("/")[-1]
+
     column_aliases = {
         "image": ["Stolperstein"],
         "inscription": ["Inschrift"],
@@ -93,9 +96,8 @@ if __name__ == "__main__":
     }
 
     try:
-        stolpersteine_data = fetch_stolpersteine_data(list_name, column_aliases)
+        stolpersteine_data = fetch_stolpersteine_data(url, list_name, column_aliases)
 
-        # Save the data to a JSON file
         output_file = f"stolpersteine_{list_name.replace(' ', '_')}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(stolpersteine_data, f, ensure_ascii=False, indent=4)
