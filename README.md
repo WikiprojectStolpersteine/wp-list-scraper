@@ -7,7 +7,7 @@ Tool to extract structured data about Stolpersteine from (German) Wikipedia list
 Run it like this:
 
 ```bash
-python convert_wp_list_to_json.py NameOfList
+python convert_wp_list_to_json.py --url url_of_the_wp_list_here
 ```
 
 ## Working Lists
