@@ -12,7 +12,7 @@ from person import process_person_info
 
 def fetch_stolpersteine_data_wikitext(list_name, column_aliases):
     print(f"Fetching Wikitext for: {list_name}")
-    
+
     response = requests.get(
         "https://de.wikipedia.org/w/api.php",
         params={
@@ -20,13 +20,15 @@ def fetch_stolpersteine_data_wikitext(list_name, column_aliases):
             "prop": "revisions",
             "rvprop": "content",
             "format": "json",
-            "titles": list_name
-        }
+            "titles": list_name,
+        },
     )
 
     if response.status_code != 200:
-        raise ValueError(f"Failed to fetch the page. Status code: {response.status_code}")
-    
+        raise ValueError(
+            f"Failed to fetch the page. Status code: {response.status_code}"
+        )
+
     pages = response.json()["query"]["pages"]
     page_content = next(iter(pages.values()))["revisions"][0]["*"]
 
@@ -95,11 +97,13 @@ def find_section_title_for_table(sections, table_code):
 if __name__ == "__main__":
     default_list_name = "Liste_der_Stolpersteine_in_Pasewalk"
 
-    parser = argparse.ArgumentParser(description="Fetch Stolpersteine data from a Wikipedia list using Wikitext")
+    parser = argparse.ArgumentParser(
+        description="Fetch Stolpersteine data from a Wikipedia list using Wikitext"
+    )
     parser.add_argument(
         "--title",
         type=str,
-        help="Wikipedia page title (e.g. Liste_der_Stolpersteine_in_Pasewalk). If not provided, default is used.",
+        help="Wikipedia page title (e.g. Liste_der_Stolpersteine_in_Pasewalk).",
     )
 
     args = parser.parse_args()
@@ -114,12 +118,16 @@ if __name__ == "__main__":
     }
 
     try:
-        stolpersteine_data = fetch_stolpersteine_data_wikitext(list_name, column_aliases)
+        stolpersteine_data = fetch_stolpersteine_data_wikitext(
+            list_name, column_aliases
+        )
 
         output_file = f"lists/stolpersteine_{list_name.replace(' ', '_')}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(stolpersteine_data, f, ensure_ascii=False, indent=4)
 
-        print(f"Extracted {len(stolpersteine_data)} entries. Data saved to {output_file}.")
+        print(
+            f"Extracted {len(stolpersteine_data)} entries. Data saved to {output_file}."
+        )
     except Exception as e:
         print(f"Error: {e}")

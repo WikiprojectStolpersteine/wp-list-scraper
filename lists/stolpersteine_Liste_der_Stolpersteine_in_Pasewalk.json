@@ -18,10 +18,12 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Adolf Arndt.jpg",
         "inscription": {
-            "text": "HIER WOHNTEADOLF ARNDTJG. 1870DEPORTIERT 1942THERESIENSTADTERMORDET 12.7.1942",
+            "text": "HIER WOHNTE ADOLF ARNDT JG. 1870 DEPORTIERT 1942 THERESIENSTADT ERMORDET 12.7.1942",
             "years": [
+                "1870",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1870",
@@ -31,17 +33,24 @@
         "location": "Marktstraße gegenüber 16/18",
         "person_info": {
             "name": "Adolf Arndt",
-            "date_of_birth": "1870",
-            "date_of_death": "1944"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.505556,
+            "longitude": 13.990556
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Max Back.jpg",
         "inscription": {
-            "text": "HIER WOHNTEMAX BACKJG. 1874DEPORTIERT 1941LODZ / LITZMANNNSTADTERMORDET 1944AUSCHWITZ",
-            "years": [],
+            "text": "HIER WOHNTE MAX BACK JG. 1874 DEPORTIERT 1941 LODZ / LITZMANNNSTADT ERMORDET 1944 AUSCHWITZ",
+            "years": [
+                "1874",
+                "1941",
+                "1944"
+            ],
             "date_of_birth": "1874",
             "date_of_death": "1944",
             "place_of_death": null
@@ -49,10 +58,13 @@
         "location": "Am St. Spiritus 3",
         "person_info": {
             "name": "Max Back",
-            "date_of_birth": "1874",
-            "date_of_death": "1942"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
@@ -74,10 +86,12 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Gertrud Behrendt (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEGERTRUD BEHRENDTJG. 1899DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "text": "HIER WOHNTE GERTRUD BEHRENDT JG. 1899 DEPORTIERT 1943 AUSCHWITZ ERMORDET 1943",
             "years": [
+                "1899",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1899",
@@ -87,8 +101,8 @@
         "location": "Haußmannstraße 54",
         "person_info": {
             "name": "Gertrud Behrendt",
-            "date_of_birth": "1899",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
@@ -112,10 +126,12 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Martha Behrendt (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEMARTHA BEHRENDTGEB. GETZELJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 1943",
+            "text": "HIER WOHNTE MARTHA BEHRENDT GEB. GETZEL JG. 1873 DEPORTIERT 1942 THERESIENSTADT TOT 1943",
             "years": [
+                "1873",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1873",
@@ -124,76 +140,85 @@
         },
         "location": "Haußmannstraße 54",
         "person_info": {
-            "name": "Martha Behrendt, geborene Getzel",
-            "date_of_birth": "1873",
-            "date_of_death": "1943"
+            "name": "Martha Behrendt",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Paul Behrendt (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEPAUL BEHRENDTJG. 1860VERTRIEBEN 1936TOT 12.12.1939INBERLIN",
-            "years": [],
+            "text": "HIER WOHNTE PAUL BEHRENDT JG. 1860 VERTRIEBEN 1936 TOT 12.12.1939 IN BERLIN",
+            "years": [
+                "1860",
+                "1936",
+                "1939"
+            ],
             "date_of_birth": "1860",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "BERLIN"
         },
         "location": "Haußmannstraße 54",
         "person_info": {
             "name": "Paul Behrendt",
-            "date_of_birth": "1860",
-            "date_of_death": "1939"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Else Blau (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEELSE BLAUGEB. STEINBERGJG. 1904DEPORTIERT 1943ERMORDET 1944 INAUSCHWITZ",
+            "text": "HIER WOHNTE ELSE BLAU GEB. STEINBERG JG. 1904 DEPORTIERT 1943 ERMORDET 1944 IN AUSCHWITZ",
             "years": [
+                "1904",
+                "1943",
                 "1944"
             ],
             "date_of_birth": "1904",
             "date_of_death": "1944",
-            "place_of_death": null
+            "place_of_death": "AUSCHWITZ"
         },
         "location": "Am Markt 11",
         "person_info": {
-            "name": "Else Blau, geborene Steinberg",
-            "date_of_birth": "1904",
-            "date_of_death": "1944"
+            "name": "Else Blau",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Bernhard Brezinski (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEBERNHARD BREZINSKIJG. 1924TOT 1943 INBERLIN",
+            "text": "HIER WOHNTE BERNHARD BREZINSKI JG. 1924 TOT 1943 IN BERLIN",
             "years": [
+                "1924",
                 "1943"
             ],
             "date_of_birth": "1924",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "BERLIN"
         },
         "location": "Ueckerstraße 14/16",
         "person_info": {
             "name": "Bernhard Brezinski",
-            "date_of_birth": "1924",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Josef Brzezinski (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEJOSEF BRZEZINSKIJG. 1893DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "text": "HIER WOHNTE JOSEF BRZEZINSKI JG. 1893 DEPORTIERT 1943 AUSCHWITZ ERMORDET 1943",
             "years": [
+                "1893",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1893",
@@ -203,17 +228,19 @@
         "location": "Ueckerstraße 14/16",
         "person_info": {
             "name": "Josef Brezinski",
-            "date_of_birth": "1893",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Gertrud Brzezinski (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEGERTRUD BRZEZINSKIGEB. RÄSNERJG. 1892DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "text": "HIER WOHNTE GERTRUD BRZEZINSKI GEB. RÄSNER JG. 1892 DEPORTIERT 1943 AUSCHWITZ ERMORDET 1943",
             "years": [
+                "1892",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1892",
@@ -222,18 +249,20 @@
         },
         "location": "Ueckerstraße 14/16",
         "person_info": {
-            "name": "Gertrud Brezinski geb. Räsner",
-            "date_of_birth": "1892",
-            "date_of_death": "1943"
+            "name": "Gertrud Brezinski",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Hedwig Salemon, Betty Cohn.jpg",
         "inscription": {
-            "text": "HIER WOHNTEBETTY COHNGEB. LOEWEJG. 1867DEPORTIERT 1942THERESIENSTADTTOT 13.4.1943",
+            "text": "HIER WOHNTE BETTY COHN GEB. LOEWE JG. 1867 DEPORTIERT 1942 THERESIENSTADT TOT 13.4.1943",
             "years": [
+                "1867",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1867",
@@ -242,18 +271,20 @@
         },
         "location": "Ueckerstraße 19",
         "person_info": {
-            "name": "Betty Cohn geb. Loewe",
-            "date_of_birth": "1867",
-            "date_of_death": "1943"
+            "name": "Betty Cohn",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Jenny Davidsohn (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEJENNY DAVIDSOHNGEB. COHNJG. 1868DEPORTIERT 1942THERESIENSTADTERMORDET 5.7.1942",
+            "text": "HIER WOHNTE JENNY DAVIDSOHN GEB. COHN JG. 1868 DEPORTIERT 1942 THERESIENSTADT ERMORDET 5.7.1942",
             "years": [
+                "1868",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1868",
@@ -262,69 +293,75 @@
         },
         "location": "Ueckerstraße 14/16",
         "person_info": {
-            "name": "Jenny Davidsohn geb. Cohn",
-            "date_of_birth": "1868",
-            "date_of_death": "1942"
+            "name": "Jenny Davidsohn",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Julius, Grete, Herbert Dobrin.jpg",
         "inscription": {
-            "text": "HIER WOHNTEGRETE DOBRINGEB. ZOBELJG. 1894DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "text": "HIER WOHNTE GRETE DOBRIN GEB. ZOBEL JG. 1894 DEPORTIERT 1943 AUSCHWITZ ERMORDET 1943",
             "years": [
+                "1894",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1894",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "GEB"
         },
         "location": "Klosterstraße ohne Haus, neben Nr. 32",
         "person_info": {
-            "name": "Grete Dobrin geb. Zobel",
-            "date_of_birth": "1894",
-            "date_of_death": "1943"
+            "name": "Grete Dobrin",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Julius, Grete, Herbert Dobrin.jpg",
         "inscription": {
-            "text": "HIER WOHNTEHERBERT DOBRINJG. 1920DEPORTIERT 1943AUSCHWITZERMORDET 6.6.1943",
+            "text": "HIER WOHNTE HERBERT DOBRIN JG. 1920 DEPORTIERT 1943 AUSCHWITZ ERMORDET 6.6.1943",
             "years": [
+                "1920",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1920",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "JG"
         },
         "location": "Klosterstraße ohne Haus, neben Nr. 32",
         "person_info": {
             "name": "Herbert Dobrin",
-            "date_of_birth": "1920",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Julius, Grete, Herbert Dobrin.jpg",
         "inscription": {
-            "text": "HIER WOHNTEJULIUS DOBRINJG. 1884DEPORTIERT 1943AUSCHWITZERMORDET 1943",
+            "text": "HIER WOHNTE JULIUS DOBRIN JG. 1884 DEPORTIERT 1943 AUSCHWITZ ERMORDET 1943",
             "years": [
+                "1884",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1884",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "JG"
         },
         "location": "Klosterstraße ohne Haus, neben Nr. 32",
         "person_info": {
             "name": "Julius Dobrin",
-            "date_of_birth": "1884",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
@@ -362,7 +399,10 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
@@ -394,7 +434,7 @@
         },
         "location": "Marktstraße 4",
         "person_info": {
-            "name": "Wally Fischel geb. Ledermann",
+            "name": "Wally Fischel",
             "date_of_birth": null,
             "date_of_death": null
         },
@@ -402,35 +442,21 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Else Flatau (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEELSE FLATAUGEB. RÄSNERJG. 1888DEPORTIERT 1942THERESIENSTADTERMORDET 1943AUSCHWITZ",
-            "years": [],
+            "text": "HIER WOHNTE ELSE FLATAU GEB. RÄSNER JG. 1888 DEPORTIERT 1942 THERESIENSTADT ERMORDET 1943 AUSCHWITZ",
+            "years": [
+                "1888",
+                "1942",
+                "1943"
+            ],
             "date_of_birth": "1888",
             "date_of_death": "1943",
             "place_of_death": null
         },
         "location": "Ueckerstraße 14/16",
         "person_info": {
-            "name": "Else Flatau geb. Räsner",
-            "date_of_birth": "1888",
-            "date_of_death": "1943"
-        },
-        "coordinates": null,
-        "table_name": "Verlegte Stolpersteine"
-    },
-    {
-        "image": null,
-        "inscription": {
-            "text": "HIER WOHNTEEMMYFRIEDLÄNDERJG. 1880DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET",
-            "years": [],
-            "date_of_birth": "1880",
-            "date_of_death": null,
-            "place_of_death": null
-        },
-        "location": "Ueckerstraße 44–70",
-        "person_info": {
-            "name": "Emmy Friedländer(1880–1944/45)",
+            "name": "Else Flatau",
             "date_of_birth": null,
             "date_of_death": null
         },
@@ -438,10 +464,37 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Emmy Friedländer.jpg",
         "inscription": {
-            "text": "HIER WOHNTELINAFRIEDLÄNDERVERH. BRADTJG. 1887DEPORTIERT 1941KOWNOERMORDET 1941",
+            "text": "HIER WOHNTE EMMY FRIEDLÄNDER JG. 1880 DEPORTIERT 1942 THERESIENSTADT 1944 AUSCHWITZ ERMORDET",
             "years": [
+                "1880",
+                "1942",
+                "1944"
+            ],
+            "date_of_birth": "1880",
+            "date_of_death": null,
+            "place_of_death": null
+        },
+        "location": "Ueckerstraße 44–70",
+        "person_info": {
+            "name": "Emmy Friedländer",
+            "date_of_birth": null,
+            "date_of_death": null
+        },
+        "coordinates": {
+            "latitude": 53.5075,
+            "longitude": 13.989444
+        },
+        "table_name": "Verlegte Stolpersteine"
+    },
+    {
+        "image": "Stolperstein Lina Friedländer.jpg",
+        "inscription": {
+            "text": "HIER WOHNTE LINA FRIEDLÄNDER VERH. BRADT JG. 1887 DEPORTIERT 1941 KOWNO ERMORDET 1941",
+            "years": [
+                "1887",
+                "1941",
                 "1941"
             ],
             "date_of_birth": "1887",
@@ -450,36 +503,49 @@
         },
         "location": "Ueckerstraße 44–70",
         "person_info": {
-            "name": "Lina Friedländer verh. Bradt",
-            "date_of_birth": "1887",
-            "date_of_death": "1941"
+            "name": "Lina Friedländer",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.5075,
+            "longitude": 13.989444
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Martha Friedländer 2.jpg",
         "inscription": {
-            "text": "HIER WOHNTEMARTHAFRIEDLÄNDERVERH. COHNJG. 1879DEPORTIERT 1941LODZ / LITZMANNSTADTERMORDET 8.5.1942CHELMNO / KULMHOF",
-            "years": [],
+            "text": "HIER WOHNTE MARTHA FRIEDLÄNDER VERH. COHN JG. 1879 DEPORTIERT 1941 LODZ / LITZMANNSTADT ERMORDET 8.5.1942 CHELMNO / KULMHOF",
+            "years": [
+                "1879",
+                "1941",
+                "1942"
+            ],
             "date_of_birth": "1879",
             "date_of_death": null,
             "place_of_death": null
         },
         "location": "Ueckerstraße 44–70",
         "person_info": {
-            "name": "Martha Friedländer verh. Cohn",
-            "date_of_birth": "1879",
-            "date_of_death": "1942"
+            "name": "Martha Friedländer",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.5075,
+            "longitude": 13.989444
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Elisabeth Königsfeld, Selma Westenberg, Regina Manasse, Ida Havelburg.jpg",
         "inscription": {
-            "text": "HIER WOHNTEIDA HAVELBURGJG. 1878DEPORTIERT 1942THERESIENSTADT1944 AUSCHWITZERMORDET 1944",
+            "text": "HIER WOHNTE IDA HAVELBURG JG. 1878 DEPORTIERT 1942 THERESIENSTADT 1944 AUSCHWITZ ERMORDET 1944",
             "years": [
+                "1878",
+                "1942",
+                "1944",
                 "1944"
             ],
             "date_of_birth": "1878",
@@ -489,10 +555,13 @@
         "location": "Baustraße 28",
         "person_info": {
             "name": "Ida Havelburg",
-            "date_of_birth": "1878",
-            "date_of_death": "1944"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503333,
+            "longitude": 13.991389
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
@@ -506,7 +575,7 @@
         },
         "location": "Am Markt 8 (Post)",
         "person_info": {
-            "name": "Amalie Hermann, geborene Lehmann",
+            "name": "Amalie Hermann",
             "date_of_birth": null,
             "date_of_death": null
         },
@@ -514,23 +583,28 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Erna Heumann, Marta Lewin.jpg",
         "inscription": {
-            "text": "HIER WOHNTEERNA HEUMANNGEB. LEWINJG. 1886DEPORTIERT 1942ERMORDET 1942 INAUSCHWITZ",
+            "text": "HIER WOHNTE ERNA HEUMANN GEB. LEWIN JG. 1886 DEPORTIERT 1942 ERMORDET 1942 IN AUSCHWITZ",
             "years": [
+                "1886",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1886",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "JG"
         },
         "location": "Am St. Spiritus 3",
         "person_info": {
-            "name": "Erna Heumann, geborene Lewin (1886–1942) In Dessau-Roßlau wurde ein weiterer Stolperstein für Erna Heumann verlegt",
+            "name": "Erna Heumann",
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
@@ -544,7 +618,7 @@
         },
         "location": "Am Markt 8 (Post)",
         "person_info": {
-            "name": "Martha Hirschberg, geborene Lehmann",
+            "name": "Martha Hirschberg",
             "date_of_birth": null,
             "date_of_death": null
         },
@@ -552,10 +626,12 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Elisabeth Königsfeld, Selma Westenberg, Regina Manasse, Ida Havelburg.jpg",
         "inscription": {
-            "text": "HIER WOHNTEELISABETHKÖNIGSFELDGEB. HAVELBURGJG. 1872DEPORTIERT 1942AUSCHWITZERMORDET 1943",
+            "text": "HIER WOHNTE ELISABETH KÖNIGSFELD GEB. HAVELBURG JG. 1872 DEPORTIERT 1942 AUSCHWITZ ERMORDET 1943",
             "years": [
+                "1872",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1872",
@@ -564,11 +640,14 @@
         },
         "location": "Baustraße 28",
         "person_info": {
-            "name": "Elisabeth Königsfeld, geborene Havelburg",
-            "date_of_birth": "1872",
-            "date_of_death": "1943"
+            "name": "Elisabeth Königsfeld",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503333,
+            "longitude": 13.991389
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
@@ -604,25 +683,30 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Regina Klein.jpg",
         "inscription": {
-            "text": "HIER WOHNTEREGINA KLEINJG. 1892DEPORTIERT 1942SOBIBORERMORDET 3.6.1942",
+            "text": "HIER WOHNTE REGINA KLEIN JG. 1892 DEPORTIERT 1942 SOBIBOR ERMORDET 3.6.1942",
             "years": [
+                "1892",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1892",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "JG"
         },
         "location": "Ueckerstraße 13",
         "person_info": {
             "name": "Regina Klein",
-            "date_of_birth": "1892",
-            "date_of_death": "1942"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
@@ -638,7 +722,7 @@
         },
         "location": "Ueckerstraße 29",
         "person_info": {
-            "name": "Erna Lazarus geb. Brilles",
+            "name": "Erna Lazarus",
             "date_of_birth": null,
             "date_of_death": null
         },
@@ -700,10 +784,12 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Albert, Klara Lefebre.jpg",
         "inscription": {
-            "text": "HIER WOHNTEKLARA LEFEBREGEB. SCHLOCHAUERJG. 1901DEPORTIERT 1940PIASKIERMORDET 1942 IMKZ LUBLIN",
+            "text": "HIER WOHNTE KLARA LEFEBRE GEB. SCHLOCHAUER JG. 1901 DEPORTIERT 1940 PIASKI ERMORDET 1942 IM KZ LUBLIN",
             "years": [
+                "1901",
+                "1940",
                 "1942"
             ],
             "date_of_birth": "1901",
@@ -712,96 +798,119 @@
         },
         "location": "Baustraße gegenüber 80",
         "person_info": {
-            "name": "Klara Levebre geb. Schlochauer",
-            "date_of_birth": "1901",
-            "date_of_death": "1942"
+            "name": "Klara Levebre",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.508056,
+            "longitude": 13.9925
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Albert, Klara Lefebre.jpg",
         "inscription": {
-            "text": "HIER WOHNTEALBERT LEFEVREJG. 1860DEPORTIERT 1940LUBLINERMORDET 1942",
+            "text": "HIER WOHNTE ALBERT LEFEVRE JG. 1860 DEPORTIERT 1940 LUBLIN ERMORDET 1942",
             "years": [
+                "1860",
+                "1940",
                 "1942"
             ],
             "date_of_birth": "1860",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "ERMORDET "
         },
         "location": "Baustraße gegenüber 80",
         "person_info": {
-            "name": "Albert Levefre(1860–1942)[3]",
+            "name": "Albert Levefre",
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.508056,
+            "longitude": 13.9925
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Martha,Adolf Lewin.jpg",
         "inscription": {
-            "text": "HIER WOHNTEADOLF LEWINJG. 1928DEPORTIERT 1942ERMORDET INPIASKI",
-            "years": [],
+            "text": "HIER WOHNTE ADOLF LEWIN JG. 1928 DEPORTIERT 1942 ERMORDET IN PIASKI",
+            "years": [
+                "1928",
+                "1942"
+            ],
             "date_of_birth": "1928",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "JG"
         },
         "location": "Am St. Spiritus 3",
         "person_info": {
-            "name": "Adolf Lewin(1928–1942/45)",
+            "name": "Adolf Lewin",
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Martha,Adolf Lewin.jpg",
         "inscription": {
-            "text": "HIER WOHNTEMARTHA LEWINJG. 1882DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
+            "text": "HIER WOHNTE MARTHA LEWIN JG. 1882 DEPORTIERT 1942 ERMORDET 1943 IN AUSCHWITZ",
             "years": [
+                "1882",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1882",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "JG"
         },
         "location": "Am St. Spiritus 3",
         "person_info": {
             "name": "Marta Lewin",
-            "date_of_birth": "1882",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Siegfried Loewe, Martha Nathansohn.jpg",
         "inscription": {
-            "text": "HIER WOHNTESIEGFRIED LOEWEJG. 1862DEPORTIERT 1940KZ LUBLINERMORDET 1942",
+            "text": "HIER WOHNTE SIEGFRIED LOEWE JG. 1862 DEPORTIERT 1940 KZ LUBLIN ERMORDET 1942",
             "years": [
+                "1862",
+                "1940",
                 "1942"
             ],
             "date_of_birth": "1862",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "ERMORDET "
         },
         "location": "Ueckerstraße 19",
         "person_info": {
             "name": "Siegfried Loewe",
-            "date_of_birth": "1862",
-            "date_of_death": "1942"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Meta Louis (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEMETA LOUISGEB. JOELJG. 1868DEPORTIERT 1942THERESIENSTADTTOT 3.9.1942",
+            "text": "HIER WOHNTE META LOUIS GEB. JOEL JG. 1868 DEPORTIERT 1942 THERESIENSTADT TOT 3.9.1942",
             "years": [
+                "1868",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1868",
@@ -810,18 +919,20 @@
         },
         "location": "Ueckerstraße 14/16",
         "person_info": {
-            "name": "Meta Louis geb. Joel",
-            "date_of_birth": "1868",
-            "date_of_death": "1942"
+            "name": "Meta Louis",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Elisabeth Königsfeld, Selma Westenberg, Regina Manasse, Ida Havelburg.jpg",
         "inscription": {
-            "text": "HIER WOHNTEREGINA MANASSEGEB. HAVELBURGJG. 1872DEPORTIERT 1942RIGATOT 1943",
+            "text": "HIER WOHNTE REGINA MANASSE GEB. HAVELBURG JG. 1872 DEPORTIERT 1942 RIGA TOT 1943",
             "years": [
+                "1872",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1872",
@@ -830,25 +941,31 @@
         },
         "location": "Baustraße 28",
         "person_info": {
-            "name": "Regina Manasse, geborene Havelburg",
-            "date_of_birth": "1872",
-            "date_of_death": "1943"
+            "name": "Regina Manasse",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503333,
+            "longitude": 13.991389
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Martha Mathias (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEMARTHA MATHIASJG. 1887DEPORTIERT 1943RIGAERMORDET",
-            "years": [],
+            "text": "HIER WOHNTE MARTHA MATHIAS JG. 1887 DEPORTIERT 1943 RIGA ERMORDET",
+            "years": [
+                "1887",
+                "1943"
+            ],
             "date_of_birth": "1887",
             "date_of_death": null,
             "place_of_death": null
         },
         "location": "Ueckerstraße 44",
         "person_info": {
-            "name": "Martha Mathias(1887–1943/1945)",
+            "name": "Martha Mathias",
             "date_of_birth": null,
             "date_of_death": null
         },
@@ -874,70 +991,87 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Rafael,Anneliese Michaelis.jpg",
         "inscription": {
-            "text": "HIER WOHNTEANNELIESEMICHAELISJG. 1908DEPORTIERT 1942ERMORDET 1943 INAUSCHWITZ",
+            "text": "HIER WOHNTE ANNELIESE MICHAELIS JG. 1908 DEPORTIERT 1942 ERMORDET 1943 IN AUSCHWITZ",
             "years": [
+                "1908",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1908",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "AUSCHWITZ"
         },
         "location": "Am St. Spiritus 3",
         "person_info": {
             "name": "Anneliese Michaelis",
-            "date_of_birth": "1908",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Else Michaelis.jpg",
         "inscription": {
-            "text": "HIER WOHNTEELSE MICHAELISGEB. LEWINJG. 1881DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "text": "HIER WOHNTE ELSE MICHAELIS GEB. LEWIN JG. 1881 DEPORTIERT 1943 ERMORDET 1943 IN AUSCHWITZ",
             "years": [
+                "1881",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1881",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "JG"
         },
         "location": "Am St. Spiritus 3",
         "person_info": {
-            "name": "Else Michaelis geb. Lewin",
-            "date_of_birth": "1881",
-            "date_of_death": "1943"
+            "name": "Else Michaelis",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Rafael,Anneliese Michaelis.jpg",
         "inscription": {
-            "text": "HIER WOHNTERAFAEL MICHAELISJG. 1872DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "text": "HIER WOHNTE RAFAEL MICHAELIS JG. 1872 DEPORTIERT 1943 ERMORDET 1943 IN AUSCHWITZ",
             "years": [
+                "1872",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1872",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "AUSCHWITZ"
         },
         "location": "Am St. Spiritus 3",
         "person_info": {
             "name": "Rafael Michaelis",
-            "date_of_birth": "1872",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.50871,
+            "longitude": 13.989018
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Gertrud Segal,Max Sternberg, Margarete Michel.jpg",
         "inscription": {
-            "text": "HIER WOHNTEMARGARETE MICHELGEB. STERNBERGJG. 1877DEPORTIERT 1942THERESIENSTADTTOT 19.4.1944",
+            "text": "HIER WOHNTE MARGARETE MICHEL GEB. STERNBERG JG. 1877 DEPORTIERT 1942 THERESIENSTADT TOT 19.4.1944",
             "years": [
+                "1877",
+                "1942",
                 "1944"
             ],
             "date_of_birth": "1877",
@@ -946,18 +1080,20 @@
         },
         "location": "Am Markt 27",
         "person_info": {
-            "name": "Margarete Michel geb. Sternberg",
-            "date_of_birth": "1877",
-            "date_of_death": "1944"
+            "name": "Margarete Michel",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Siegfried Loewe, Martha Nathansohn.jpg",
         "inscription": {
-            "text": "HIER WOHNTEMARTHA NATHANSOHNGEB. LOEWEJG. 1864DEPORTIERT 1942THERESIENSTADTERMORDET 5.12.1942",
+            "text": "HIER WOHNTE MARTHA NATHANSOHN GEB. LOEWE JG. 1864 DEPORTIERT 1942 THERESIENSTADT ERMORDET 5.12.1942",
             "years": [
+                "1864",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1864",
@@ -966,38 +1102,42 @@
         },
         "location": "Ueckerstraße 19",
         "person_info": {
-            "name": "Martha Nathanson geb. Loewe",
-            "date_of_birth": "1864",
-            "date_of_death": "1942"
+            "name": "Martha Nathanson",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Therese Ostheim (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTETHERESE OSTHEIMGEB. ABRAHAMSOHNJG. 1868DEPORTIERT 1942ERMORDET 1943 INRIGA",
+            "text": "HIER WOHNTE THERESE OSTHEIM GEB. ABRAHAMSOHN JG. 1868 DEPORTIERT 1942 ERMORDET 1943 IN RIGA",
             "years": [
+                "1868",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1868",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "RIGA"
         },
         "location": "Klosterstraße, Parkplatz",
         "person_info": {
-            "name": "Therese Ostheim, geborene Abrahamson",
-            "date_of_birth": "1868",
-            "date_of_death": "1943"
+            "name": "Therese Ostheim",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Geraldine Pless.jpg",
         "inscription": {
-            "text": "HIER WOHNTEGERALDINE PLESSGEB. AHRONFELDJG. 1863DEPORTIERT 1942THERESIENSTADTTOT 6.12.1942",
+            "text": "HIER WOHNTE GERALDINE PLESS GEB. AHRONFELD JG. 1863 DEPORTIERT 1942 THERESIENSTADT TOT 6.12.1942",
             "years": [
+                "1863",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1863",
@@ -1006,38 +1146,48 @@
         },
         "location": "Marktstraße ohne Haus, gegenüber Nr. 44",
         "person_info": {
-            "name": "Geraldine Pless, geborene Ahronfeld",
-            "date_of_birth": "1863",
-            "date_of_death": "1942"
+            "name": "Geraldine Pless",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.507222,
+            "longitude": 13.991111
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Bianka Putziger (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEBIANKA PUTZIGER GEB. HIRSCHLAFFJG. 1811DEPORTIERT 1942GLUSKERMORDET 1942 INMAJDANEK",
+            "text": "HIER WOHNTE BIANKA PUTZIGER GEB. HIRSCHLAFF JG. 1811 DEPORTIERT 1942 GLUSK ERMORDET 1942 IN MAJDANEK",
             "years": [
+                "1811",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1811",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "MAJDANEK"
         },
         "location": "Grünstraße 35",
         "person_info": {
-            "name": "Bianka Putziger, geborene Hirschlaff",
-            "date_of_birth": "1811",
-            "date_of_death": "1942"
+            "name": "Bianka Putziger",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.504799,
+            "longitude": 13.986851
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Blanka Rosenthal (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEBLANKA ROSENTHALGEB. MATHIASJG. 1894DEPORTIERT 1942RIGAERMORDET 29.10.1942",
+            "text": "HIER WOHNTE BLANKA ROSENTHAL GEB. MATHIAS JG. 1894 DEPORTIERT 1942 RIGA ERMORDET 29.10.1942",
             "years": [
+                "1894",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1894",
@@ -1046,58 +1196,65 @@
         },
         "location": "Ueckerstraße 44",
         "person_info": {
-            "name": "Blanka Rosenthal, geborene Mathias",
-            "date_of_birth": "1894",
-            "date_of_death": "1942"
+            "name": "Blanka Rosenthal",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Arthur Rosenzweig (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEARTHURROSENZWEIGJG. 1901DEPORTIERT 1940LUBLINERMORDET 1942",
+            "text": "HIER WOHNTE ARTHUR ROSENZWEIG JG. 1901 DEPORTIERT 1940 LUBLIN ERMORDET 1942",
             "years": [
+                "1901",
+                "1940",
                 "1942"
             ],
             "date_of_birth": "1901",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "ERMORDET "
         },
         "location": "Grünstraße 59",
         "person_info": {
             "name": "Arthur Rosenzweig",
-            "date_of_birth": "1901",
-            "date_of_death": "1942"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Gustav Rosenzweig (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEGUSTAVROSENZWEIGJG. 1862DEPORTIERT 1940LUBLINERMORDET 1942",
+            "text": "HIER WOHNTE GUSTAV ROSENZWEIG JG. 1862 DEPORTIERT 1940 LUBLIN ERMORDET 1942",
             "years": [
+                "1862",
+                "1940",
                 "1942"
             ],
             "date_of_birth": "1862",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "ERMORDET "
         },
         "location": "Grünstraße 59",
         "person_info": {
             "name": "Gustav Rosenzweig",
-            "date_of_birth": "1862",
-            "date_of_death": "1942"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Hedwig Salemon, Betty Cohn.jpg",
         "inscription": {
-            "text": "HIER WOHNTEHEDWIG SALEMONGEB. LOEWEJG. 1865DEPORTIERT 1942THERESIENSTADT1942 TREBLINKAERMORDET 1943",
+            "text": "HIER WOHNTE HEDWIG SALEMON GEB. LOEWE JG. 1865 DEPORTIERT 1942 THERESIENSTADT 1942 TREBLINKA ERMORDET 1943",
             "years": [
+                "1865",
+                "1942",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1865",
@@ -1106,18 +1263,20 @@
         },
         "location": "Ueckerstraße 19",
         "person_info": {
-            "name": "Hedwig Salemon geb. Loewe",
-            "date_of_birth": "1865",
-            "date_of_death": "1943"
+            "name": "Hedwig Salemon",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Jenny Sänger (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEJENNY SÄNGERJG. 1856DEPORTIERT 1942THERESIENSTADTTOT 2.3.1943",
+            "text": "HIER WOHNTE JENNY SÄNGER JG. 1856 DEPORTIERT 1942 THERESIENSTADT TOT 2.3.1943",
             "years": [
+                "1856",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1856",
@@ -1127,24 +1286,6 @@
         "location": "Ueckerstraße 21",
         "person_info": {
             "name": "Jenny Sänger",
-            "date_of_birth": "1856",
-            "date_of_death": "1943"
-        },
-        "coordinates": null,
-        "table_name": "Verlegte Stolpersteine"
-    },
-    {
-        "image": null,
-        "inscription": {
-            "text": "HIER WOHNTESIEGBERT SÄNGERJG. 1878DEPORTIERT 1942GHETTO WARSCHAUERMORDET",
-            "years": [],
-            "date_of_birth": "1878",
-            "date_of_death": null,
-            "place_of_death": null
-        },
-        "location": "Ueckerstraße 14/16",
-        "person_info": {
-            "name": "Siegbert Sänger(1878–1942/1944)",
             "date_of_birth": null,
             "date_of_death": null
         },
@@ -1152,30 +1293,58 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Siegbert Sänger (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEBENNOSCHLOCHAUERJG. 1864DEPORTIERT 1940KZ LUBLINERMORDET 1942",
+            "text": "HIER WOHNTE SIEGBERT SÄNGER JG. 1878 DEPORTIERT 1942 GHETTO WARSCHAU ERMORDET",
             "years": [
+                "1878",
                 "1942"
             ],
-            "date_of_birth": "1864",
-            "date_of_death": "1942",
+            "date_of_birth": "1878",
+            "date_of_death": null,
             "place_of_death": null
         },
-        "location": "Baustraße 48/49",
+        "location": "Ueckerstraße 14/16",
         "person_info": {
-            "name": "Benno Schlochauer",
-            "date_of_birth": "1864",
-            "date_of_death": "1942"
+            "name": "Siegbert Sänger",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Benno,Siegbert,Lina Schlochauer.jpg",
         "inscription": {
-            "text": "HIER WOHNTELINA SCHLOCHAUERGEB. STEINBERGJG. 1867DEPORTIERT 1940PIASKIERMORDET 22.5.1940 IMKZ LUBLIN",
+            "text": "HIER WOHNTE BENNO SCHLOCHAUER JG. 1864 DEPORTIERT 1940 KZ LUBLIN ERMORDET 1942",
             "years": [
+                "1864",
+                "1940",
+                "1942"
+            ],
+            "date_of_birth": "1864",
+            "date_of_death": "1942",
+            "place_of_death": "ERMORDET "
+        },
+        "location": "Baustraße 48/49",
+        "person_info": {
+            "name": "Benno Schlochauer",
+            "date_of_birth": null,
+            "date_of_death": null
+        },
+        "coordinates": {
+            "latitude": 53.503889,
+            "longitude": 13.991667
+        },
+        "table_name": "Verlegte Stolpersteine"
+    },
+    {
+        "image": "Stolperstein Benno,Siegbert,Lina Schlochauer.jpg",
+        "inscription": {
+            "text": "HIER WOHNTE LINA SCHLOCHAUER GEB. STEINBERG JG. 1867 DEPORTIERT 1940 PIASKI ERMORDET 22.5.1940 IM KZ LUBLIN",
+            "years": [
+                "1867",
+                "1940",
                 "1940"
             ],
             "date_of_birth": "1867",
@@ -1184,116 +1353,140 @@
         },
         "location": "Baustraße 48/49",
         "person_info": {
-            "name": "Lina Schlochauer geb. Steinberg",
-            "date_of_birth": "1867",
-            "date_of_death": "1940"
+            "name": "Lina Schlochauer",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503889,
+            "longitude": 13.991667
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Benno,Siegbert,Lina Schlochauer.jpg",
         "inscription": {
-            "text": "HIER WOHNTESIEGBERTSCHLOCHAUERJG. 1903DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
+            "text": "HIER WOHNTE SIEGBERT SCHLOCHAUER JG. 1903 DEPORTIERT 1940 PIASKI ERMORDET 1942 IN MAJDANEK",
             "years": [
+                "1903",
+                "1940",
                 "1942"
             ],
             "date_of_birth": "1903",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "MAJDANEK"
         },
         "location": "Baustraße 48/49",
         "person_info": {
             "name": "Siegbert Schlochauer",
-            "date_of_birth": "1903",
-            "date_of_death": "1942"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503889,
+            "longitude": 13.991667
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Gertrud Segal,Max Sternberg, Margarete Michel.jpg",
         "inscription": {
-            "text": "HIER WOHNTEGERTRUD SEGALLGEB. STERNBERGJG. 1881VOR  DEPORTATIONFLUCHT IN DEN TOD22.1.1942",
+            "text": "HIER WOHNTE GERTRUD SEGALL GEB. STERNBERG JG. 1881 VOR DEPORTATION FLUCHT IN DEN TOD 22.1.1942",
             "years": [
+                "1881",
                 "1942"
             ],
             "date_of_birth": "1881",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "DEN TOD "
         },
         "location": "Am Markt 27",
         "person_info": {
-            "name": "Gertrud Segall geb. Sternberg",
-            "date_of_birth": "1881",
-            "date_of_death": "1942"
+            "name": "Gertrud Segall",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Sarah Stankowski.jpg",
         "inscription": {
-            "text": "HIER WOHNTESARAHSTANKOWSKIGEB. GORTATOWSKIJG. 1869TOT 17.6.1943VOR DER DEPORTATION",
-            "years": [],
+            "text": "HIER WOHNTE SARAH STANKOWSKI GEB. GORTATOWSKI JG. 1869 TOT 17.6.1943 VOR DER DEPORTATION",
+            "years": [
+                "1869",
+                "1943"
+            ],
             "date_of_birth": "1869",
             "date_of_death": null,
             "place_of_death": null
         },
         "location": "Marktstraße ohne Haus, gegenüber Nr. 44",
         "person_info": {
-            "name": "Sarah Stankowski geb. Gortatowski",
-            "date_of_birth": "1869",
-            "date_of_death": "1943"
+            "name": "Sarah Stankowski",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.507222,
+            "longitude": 13.991111
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Betty Steinberg (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEBETTY STEINBERGGEB. BERLOWITZJG. 1876DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "text": "HIER WOHNTE BETTY STEINBERG GEB. BERLOWITZ JG. 1876 DEPORTIERT 1943 ERMORDET 1943 IN AUSCHWITZ",
             "years": [
+                "1876",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1876",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "AUSCHWITZ"
         },
         "location": "Am Markt 11",
         "person_info": {
-            "name": "Betty Steinberg geb. Berlowitz",
-            "date_of_birth": "1876",
-            "date_of_death": "1943"
+            "name": "Betty Steinberg",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Max, Jacob Steinberg.jpg",
         "inscription": {
-            "text": "HIER WOHNTEJACOB STEINBERGJG. 1877DEPORTIERT 1941TOT 1943 INLODZ / LITZMANNSTADT",
+            "text": "HIER WOHNTE JACOB STEINBERG JG. 1877 DEPORTIERT 1941 TOT 1943 IN LODZ / LITZMANNSTADT",
             "years": [
+                "1877",
+                "1941",
                 "1943"
             ],
             "date_of_birth": "1877",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "LODZ / LITZMANNSTADT"
         },
         "location": "Baustraße 48/49",
         "person_info": {
             "name": "Jacob Steinberg",
-            "date_of_birth": "1877",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503889,
+            "longitude": 13.991667
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Julius Steinberg (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEJULIUS STEINBERGJG. 1873DEPORTIERT 1943THERESIENSTADTTOT 9.1.1944",
+            "text": "HIER WOHNTE JULIUS STEINBERG JG. 1873 DEPORTIERT 1943 THERESIENSTADT TOT 9.1.1944",
             "years": [
+                "1873",
+                "1943",
                 "1944"
             ],
             "date_of_birth": "1873",
@@ -1303,17 +1496,18 @@
         "location": "Am Markt 11",
         "person_info": {
             "name": "Julius Steinberg",
-            "date_of_birth": "1873",
-            "date_of_death": "1944"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Max, Jacob Steinberg.jpg",
         "inscription": {
-            "text": "HIER WOHNTEMAX STEINBERGJG. 187XDEPORTIERT 1942AUSCHWITZERMORDET 13.2.1943",
+            "text": "HIER WOHNTE MAX STEINBERG JG. 187X DEPORTIERT 1942 AUSCHWITZ ERMORDET 13.2.1943",
             "years": [
+                "1942",
                 "1943"
             ],
             "date_of_birth": null,
@@ -1322,18 +1516,23 @@
         },
         "location": "Baustraße 48/49",
         "person_info": {
-            "name": "Max Steinberg(187X-1943)",
+            "name": "Max Steinberg",
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503889,
+            "longitude": 13.991667
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Gertrud Segal,Max Sternberg, Margarete Michel.jpg",
         "inscription": {
-            "text": "HIER WOHNTEMAX STERNBERGJG. 1873DEPORTIERT 1942THERESIENSTADTTOT 10.11.1942",
+            "text": "HIER WOHNTE MAX STERNBERG JG. 1873 DEPORTIERT 1942 THERESIENSTADT TOT 10.11.1942",
             "years": [
+                "1873",
+                "1942",
                 "1942"
             ],
             "date_of_birth": "1873",
@@ -1343,8 +1542,8 @@
         "location": "Am Markt 27",
         "person_info": {
             "name": "Max Sternberg",
-            "date_of_birth": "1873",
-            "date_of_death": "1942"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
@@ -1368,70 +1567,78 @@
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Thea Tosk (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTETHEA TOSKGEB. BAYERJG. 1904DEPORTIERT 1940PIASKIERMORDET 1942 INMAJDANEK",
+            "text": "HIER WOHNTE THEA TOSK GEB. BAYER JG. 1904 DEPORTIERT 1940 PIASKI ERMORDET 1942 IN MAJDANEK",
             "years": [
+                "1904",
+                "1940",
                 "1942"
             ],
             "date_of_birth": "1904",
             "date_of_death": "1942",
-            "place_of_death": null
+            "place_of_death": "MAJDANEK"
         },
         "location": "Grünstraße 59",
         "person_info": {
-            "name": "Thea Tosk geb. Bayer",
-            "date_of_birth": "1904",
-            "date_of_death": "1942"
+            "name": "Thea Tosk",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Frieda Translateur (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEFRIEDATRANSLATEURGEB. PUTZIGERJG. 1905DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "text": "HIER WOHNTE FRIEDA TRANSLATEUR GEB. PUTZIGER JG. 1905 DEPORTIERT 1943 ERMORDET 1943 IN AUSCHWITZ",
             "years": [
+                "1905",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1905",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "AUSCHWITZ"
         },
         "location": "Ueckerstraße 27",
         "person_info": {
-            "name": "Frieda Translateur geb. Putziger",
-            "date_of_birth": "1905",
-            "date_of_death": "1943"
+            "name": "Frieda Translateur",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein für Hugo Translateur (Pasewalk).jpg",
         "inscription": {
-            "text": "HIER WOHNTEHUGOTRANSLATEURJG. 1883DEPORTIERT 1943ERMORDET 1943 INAUSCHWITZ",
+            "text": "HIER WOHNTE HUGO TRANSLATEUR JG. 1883 DEPORTIERT 1943 ERMORDET 1943 IN AUSCHWITZ",
             "years": [
+                "1883",
+                "1943",
                 "1943"
             ],
             "date_of_birth": "1883",
             "date_of_death": "1943",
-            "place_of_death": null
+            "place_of_death": "AUSCHWITZ"
         },
         "location": "Ueckerstraße 27",
         "person_info": {
             "name": "Hugo Translateur",
-            "date_of_birth": "1883",
-            "date_of_death": "1943"
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Elisabeth Königsfeld, Selma Westenberg, Regina Manasse, Ida Havelburg.jpg",
         "inscription": {
-            "text": "HIER WOHNTESELMA WESTENBERGGEB. HAVELBURGJG. 1874DEPORTIERT 1942RIGATOT 1943",
+            "text": "HIER WOHNTE SELMA WESTENBERG GEB. HAVELBURG JG. 1874 DEPORTIERT 1942 RIGA TOT 1943",
             "years": [
+                "1874",
+                "1942",
                 "1943"
             ],
             "date_of_birth": "1874",
@@ -1440,55 +1647,66 @@
         },
         "location": "Baustraße 28",
         "person_info": {
-            "name": "Selma Westenberg geb. Havelburg",
-            "date_of_birth": "1874",
-            "date_of_death": "1943"
+            "name": "Selma Westenberg",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503333,
+            "longitude": 13.991389
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Max,Gertrud Zobel.jpg",
         "inscription": {
-            "text": "HIER WOHNTEGERTRUD ZOBELGEB. SIMONJG. 1888DEPORTIERT 1940BELZYCEERMORDET INLUBLIN",
-            "years": [],
+            "text": "HIER WOHNTE GERTRUD ZOBEL GEB. SIMON JG. 1888 DEPORTIERT 1940 BELZYCE ERMORDET IN LUBLIN",
+            "years": [
+                "1888",
+                "1940"
+            ],
             "date_of_birth": "1888",
             "date_of_death": null,
-            "place_of_death": null
+            "place_of_death": "LUBLIN"
         },
         "location": "Baustraße 48/49",
         "person_info": {
-            "name": "Gertrud Zobel geb. Simon",
-            "date_of_birth": "1888",
-            "date_of_death": "1943"
+            "name": "Gertrud Zobel",
+            "date_of_birth": null,
+            "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503889,
+            "longitude": 13.991667
+        },
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": null,
+        "image": "Stolperstein Johanna Zobel.jpg",
         "inscription": {
-            "text": "HIER WOHNTEJOHANNA ZOBELGEB. LEWYJG. 1863DEPORTIERT 1940BELZYCEERMORDET 1940 INLUBLIN",
+            "text": "HIER WOHNTE JOHANNA ZOBEL GEB. LEWY JG. 1863 DEPORTIERT 1940 BELZYCE ERMORDET 1940 IN LUBLIN",
             "years": [
+                "1863",
+                "1940",
                 "1940"
             ],
             "date_of_birth": "1863",
             "date_of_death": "1940",
-            "place_of_death": null
+            "place_of_death": "LUBLIN"
         },
         "location": "Neuer Markt 11/13",
         "person_info": {
-            "name": "Johanna Zobel geb. Lewy",
-            "date_of_birth": "1863",
-            "date_of_death": "1940"
+            "name": "Johanna Zobel",
+            "date_of_birth": null,
+            "date_of_death": null
         },
         "coordinates": null,
         "table_name": "Verlegte Stolpersteine"
     },
     {
-        "image": "Stolperstein_Max,Gertrud_Zobel.jpg\"><img class=\"mw-file-element\" data-file-height=\"2988\" data-file-width=\"5312\" decoding=\"async\" height=\"68\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Stolperstein_Max,Gertrud_Zobel.jpg/120px-Stolperstein_Max,Gertrud_Zobel.jpg\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Stolperstein_Max,Gertrud_Zobel.jpg/250px-Stolperstein_Max,Gertrud_Zobel.jpg 1.5x\" width=\"120\"/></a></span>",
+        "image": null,
         "inscription": {
-            "text": "HIER WOHNTEMAXZOBELJG. 1888? ? ?",
+            "text": "HIER WOHNTE MAX ZOBEL JG. 1888 ? ? ?",
             "years": [
                 "1888"
             ],
@@ -1502,7 +1720,10 @@
             "date_of_birth": null,
             "date_of_death": null
         },
-        "coordinates": null,
+        "coordinates": {
+            "latitude": 53.503889,
+            "longitude": 13.991667
+        },
         "table_name": "Verlegte Stolpersteine"
     }
 ]

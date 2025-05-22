@@ -4,6 +4,7 @@ import csv
 # Define the URL of the MediaWiki API endpoint
 API_URL = "https://de.wikipedia.org/w/api.php"
 
+
 def get_category_members(category, cmcontinue=None):
     """Get members of a specified Wikipedia category."""
     params = {
@@ -23,6 +24,7 @@ def get_category_members(category, cmcontinue=None):
 
     return members, next_continue
 
+
 def get_all_category_lists(category):
     """Recursively get all pages from a Wikipedia category and its subcategories."""
     all_pages = []
@@ -35,6 +37,7 @@ def get_all_category_lists(category):
 
     return all_pages
 
+
 def save_to_csv(pages, filename="wikipedia_lists.csv"):
     """Save the list of pages to a CSV file."""
     with open(filename, mode="w", newline="", encoding="utf-8") as csvfile:
@@ -46,11 +49,13 @@ def save_to_csv(pages, filename="wikipedia_lists.csv"):
             page_url = f"https://de.wikipedia.org/wiki/{title.replace(' ', '_')}"
             writer.writerow([page_id, title, page_url])
 
+
 def main():
     category = "Kategorie:Liste_(Stolpersteine)"
     all_pages = get_all_category_lists(category)
     save_to_csv(all_pages)
     print(f"Saved {len(all_pages)} pages to CSV.")
+
 
 if __name__ == "__main__":
     main()
